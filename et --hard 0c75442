@@ -1,0 +1,909 @@
+[33mcommit 0c7544282427ef5cc9e34458094865ab61caa2d8[m[33m ([m[1;32mmaster[m[33m)[m
+Author: Bui Duy Hung <buiduyhungtc@gmail.com>
+Date:   Fri May 30 22:49:02 2025 +0700
+
+    update
+
+[1mdiff --git a/.env b/.env[m
+[1mindex 0dddaa6..853e0a4 100644[m
+[1m--- a/.env[m
+[1m+++ b/.env[m
+[36m@@ -1,4 +1,5 @@[m
+ # Lưu lại các api key youtube cách nhau bởi dấu ,[m
+[31m-YT_API_KEYS=AIzaSyBXcusSZHOzrcJ-BJmEFfvyHL9b6PRg33s,AIzaSyBEuYV9U0U9zF_OYGq5iDHqSggAs065yZQ,AIzaSyBlGyVGNWbPaVD5W5gY5nTAsPB2whzJ5Wk,AIzaSyCNCzV0Nxh2VlPC5Qhdh4mgxWTmPBXVIaw,AIzaSyBk8Cg6FcwPzjKlMnbw2NHOrF-KdgcBpb0[m
+[31m-USERDATA_PATHS=C:\Users\Admin\AppData\Local\Google\Chrome\User Data - Copy, C:\Users\Admin\AppData\Local\Google\Chrome\User Data - Copy (2), C:\Users\Admin\AppData\Local\Google\Chrome\User Data - Copy (3), C:\Users\Admin\AppData\Local\Google\Chrome\User Data - Copy (4), C:\Users\Admin\AppData\Local\Google\Chrome\User Data - Copy (5)[m
+[31m-CHATGPT_KEY=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[m
+\ No newline at end of file[m
+[32m+[m[32mYT_API_KEYS=AIzaSyBXcusSZHOzrcJ-BJmEFfvyHL9b6PRg33s,AIzaSyBEuYV9U0U9zF_OYGq5iDHqSggAs065yZQ,AIzaSyBlGyVGNWbPaVD5W5gY5nTAsPB2whzJ5Wk,AIzaSyCNCzV0Nxh2VlPC5Qhdh4mgxWTmPBXVIaw,AIzaSyBk8Cg6FcwPzjKlMnbw2NHOrF-KdgcBpb0,AIzaSyBcYF5-Uplhtv5zlMw5PGf_F2PsYpY-CmY,AIzaSyBIPe25n3ifE6m0qYupeGBjZ0Zys_mRG9A,AIzaSyDQqpvRlRBxwmMgIa07ZJ3WlR1kQ2KEnOI[m
+[32m+[m[32mUSERDATA_PATHS=C:\Users\duckm\AppData\Local\Google\Chrome\User Data - Copy, C:\Users\duckm\AppData\Local\Google\Chrome\User Data - Copy (2), C:\Users\duckm\AppData\Local\Google\Chrome\User Data - Copy (3), C:\Users\duckm\AppData\Local\Google\Chrome\User Data - Copy (4), C:\Users\duckm\AppData\Local\Google\Chrome\User Data - Copy (5)[m
+[32m+[m[32mCHATGPT_KEY=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[m
+[32m+[m[32mCOUNTRIES=India,United States,Brazil,Indonesia,Mexico,Japan,Russian Federation,Germany,Vietnam,Philippines,Turkey,Pakistan,United Kingdom,Egypt,Bangladesh,Thailand,France,Nigeria,Korea,Republic of,Argentina,Spain,Italy,Colombia,Canada,Saudi Arabia,Poland,Ukraine,Malaysia,South Africa,Iraq[m
+[1mdiff --git a/.gitignore b/.gitignore[m
+[1mindex f8ed135..a5962a3 100644[m
+[1m--- a/.gitignore[m
+[1m+++ b/.gitignore[m
+[36m@@ -7,4 +7,10 @@[m [mmodule_2.json[m
+ module_2flask.py[m
+ t.py[m
+ yt.py[m
+[31m-.example[m
+\ No newline at end of file[m
+[32m+[m[32m.example[m
+[32m+[m[32mfunction1[m
+[32m+[m[32mfunction2[m
+[32m+[m[32mfunction3[m
+[32m+[m[32mfunction4[m
+[32m+[m[32mfunction5[m
+[32m+[m[32m__pycache__[m
+\ No newline at end of file[m
+[1mdiff --git a/__pycache__/module_get_info_chanel.cpython-311.pyc b/__pycache__/module_get_info_chanel.cpython-311.pyc[m
+[1mindex 956568a..ea6127f 100644[m
+Binary files a/__pycache__/module_get_info_chanel.cpython-311.pyc and b/__pycache__/module_get_info_chanel.cpython-311.pyc differ
+[1mdiff --git a/__pycache__/module_get_link_video.cpython-311.pyc b/__pycache__/module_get_link_video.cpython-311.pyc[m
+[1mindex 9ae0f6f..75f0e36 100644[m
+Binary files a/__pycache__/module_get_link_video.cpython-311.pyc and b/__pycache__/module_get_link_video.cpython-311.pyc differ
+[1mdiff --git a/__pycache__/module_initialize_driver.cpython-311.pyc b/__pycache__/module_initialize_driver.cpython-311.pyc[m
+[1mindex 772d63c..ff8f955 100644[m
+Binary files a/__pycache__/module_initialize_driver.cpython-311.pyc and b/__pycache__/module_initialize_driver.cpython-311.pyc differ
+[1mdiff --git a/__pycache__/module_sub_module3.cpython-311.pyc b/__pycache__/module_sub_module3.cpython-311.pyc[m
+[1mindex 4d2d498..40415d5 100644[m
+Binary files a/__pycache__/module_sub_module3.cpython-311.pyc and b/__pycache__/module_sub_module3.cpython-311.pyc differ
+[1mdiff --git a/__pycache__/module_sub_module_5.cpython-311.pyc b/__pycache__/module_sub_module_5.cpython-311.pyc[m
+[1mindex aa894c4..19cbea2 100644[m
+Binary files a/__pycache__/module_sub_module_5.cpython-311.pyc and b/__pycache__/module_sub_module_5.cpython-311.pyc differ
+[1mdiff --git a/__pycache__/module_youtube_api_manager.cpython-311.pyc b/__pycache__/module_youtube_api_manager.cpython-311.pyc[m
+[1mindex 6ec0b38..82fcff6 100644[m
+Binary files a/__pycache__/module_youtube_api_manager.cpython-311.pyc and b/__pycache__/module_youtube_api_manager.cpython-311.pyc differ
+[1mdiff --git a/function2/10_26052025_views_7d.json b/function2/10_26052025_views_7d.json[m
+[1mdeleted file mode 100644[m
+[1mindex 0637a08..0000000[m
+[1m--- a/function2/10_26052025_views_7d.json[m
+[1m+++ /dev/null[m
+[36m@@ -1 +0,0 @@[m
+[31m-[][m
+\ No newline at end of file[m
+[1mdiff --git a/function3/10_26052025_captain chef_track_competitor.json b/function3/10_26052025_captain chef_track_competitor.json[m
+[1mdeleted file mode 100644[m
+[1mindex 600b7da..0000000[m
+[1m--- a/function3/10_26052025_captain chef_track_competitor.json[m	
+[1m+++ /dev/null[m
+[36m@@ -1,64 +0,0 @@[m
+[31m-[[m
+[31m-    {[m
+[31m-        "channel_name": "captain chef",[m
+[31m-        "avata": "https://yt3.ggpht.com/ytc/AIdro_n2kLAO8ozvDNyV1aWPykAbsi6U6j9x1O8Y7Zxrks6LoPw=s88-c-k-c0x00ffffff-no-rj",[m
+[31m-        "channel_description": "",[m
+[31m-        "quoc_gia": "Kh\u00c3\u00b4ng r\u00c3\u00b5",[m
+[31m-        "channel_creation_date": "2013-02-12",[m
+[31m-        "channel_genre": "long",[m
+[31m-        "posting_frequency": 0.0,[m
+[31m-        "total_video": "8",[m
+[31m-        "video_30d": "0",[m
+[31m-        "language": "Ti\u00e1\u00ba\u00bfng Vi\u00e1\u00bb\u2021t",[m
+[31m-        "total_view": "8430692",[m
+[31m-        "views_30d": "157,796",[m
+[31m-        "total_sub": "17500",[m
+[31m-        "subs_30d": "400",[m
+[31m-        "hashtags": "",[m
+[31m-        "SEO_keywords": "",[m
+[31m-        "videos": [[m
+[31m-            {[m
+[31m-                "id_video": 1,[m
+[31m-                "url_video": "https://www.youtube.com/watch?v=HHOn8u-c2wk",[m
+[31m-                "tieu_de": "Himiko Kikuchi - Flying Beagle (1987)",[m
+[31m-                "track": [[m
+[31m-                    {[m
+[31m-                        "luot_xem": "8416941",[m
+[31m-                        "luot_thich": "503501",[m
+[31m-                        "binh_luan": "9216",[m
+[31m-                        "sub_now": "1250",[m
+[31m-                        "time": "2025-05-26 15:49:06"[m
+[31m-                    }[m
+[31m-                ][m
+[31m-            },[m
+[31m-            {[m
+[31m-                "id_video": 2,[m
+[31m-                "url_video": "https://www.youtube.com/watch?v=M5CHp-c6E0Q",[m
+[31m-                "tieu_de": "Housework & Leo Young - So true? So what!",[m
+[31m-                "track": [[m
+[31m-                    {[m
+[31m-                        "luot_xem": "5521",[m
+[31m-                        "luot_thich": "224",[m
+[31m-                        "binh_luan": "9",[m
+[31m-                        "sub_now": "1250",[m
+[31m-                        "time": "2025-05-26 15:49:11"[m
+[31m-                    }[m
+[31m-                ][m
+[31m-            },[m
+[31m-            {[m
+[31m-                "id_video": 3,[m
+[31m-                "url_video": "https://www.youtube.com/watch?v=XYTfbnqU0Sc",[m
+[31m-                "tieu_de": "Housework - Viciousaus",[m
+[31m-                "track": [[m
+[31m-                    {[m
+[31m-                        "luot_xem": "1686",[m
+[31m-                        "luot_thich": "63",[m
+[31m-                        "binh_luan": "2",[m
+[31m-                        "sub_now": "1250",[m
+[31m-                        "time": "2025-05-26 15:49:17"[m
+[31m-                    }[m
+[31m-                ][m
+[31m-            }[m
+[31m-        ][m
+[31m-    }[m
+[31m-][m
+\ No newline at end of file[m
+[1mdiff --git a/function4/10_26052025_con nguoi_week.json b/function4/10_26052025_con nguoi_week.json[m
+[1mdeleted file mode 100644[m
+[1mindex 0637a08..0000000[m
+[1m--- a/function4/10_26052025_con nguoi_week.json[m	
+[1m+++ /dev/null[m
+[36m@@ -1 +0,0 @@[m
+[31m-[][m
+\ No newline at end of file[m
+[1mdiff --git a/function5/10_26052025_Mr. Siro.json b/function5/10_26052025_Mr. Siro.json[m
+[1mdeleted file mode 100644[m
+[1mindex ee09da5..0000000[m
+[1m--- a/function5/10_26052025_Mr. Siro.json[m	
+[1m+++ /dev/null[m
+[36m@@ -1,44 +0,0 @@[m
+[31m-[[m
+[31m-    {[m
+[31m-        "channel_name": "Mr. Siro",[m
+[31m-        "avata": "https://yt3.ggpht.com/6lYNSydE6tzbORY2373OnkMMBIDzCH4bs0t6RcA9DAtAdUrIGCVyShZ_Szk1jCi6f4duoP8S=s88-c-k-c0x00ffffff-no-rj",[m
+[31m-        "quoc_gia": "US",[m
+[31m-        "channel_creation_date": "2013-09-16",[m
+[31m-        "posting_frequency": 0.4,[m
+[31m-        "total_video": "265",[m
+[31m-        "average_duration": "13m 26s",[m
+[31m-        "total_view": "858776042",[m
+[31m-        "views_30d": "858,776,042",[m
+[31m-        "total_sub": "2190000",[m
+[31m-        "subs_30d": "10,000",[m
+[31m-        "time_stamp": "26052025_154700"[m
+[31m-    },[m
+[31m-    {[m
+[31m-        "channel_name": "Mr. Siro",[m
+[31m-        "avata": "https://yt3.ggpht.com/6lYNSydE6tzbORY2373OnkMMBIDzCH4bs0t6RcA9DAtAdUrIGCVyShZ_Szk1jCi6f4duoP8S=s88-c-k-c0x00ffffff-no-rj",[m
+[31m-        "quoc_gia": "US",[m
+[31m-        "channel_creation_date": "2013-09-16",[m
+[31m-        "posting_frequency": 0.4,[m
+[31m-        "total_video": "265",[m
+[31m-        "average_duration": "13m 26s",[m
+[31m-        "total_view": "858776042",[m
+[31m-        "views_30d": "858,776,042",[m
+[31m-        "total_sub": "2190000",[m
+[31m-        "subs_30d": "10,000",[m
+[31m-        "time_stamp": "26052025_154710"[m
+[31m-    },[m
+[31m-    {[m
+[31m-        "channel_name": "Mr. Siro",[m
+[31m-        "avata": "https://yt3.ggpht.com/6lYNSydE6tzbORY2373OnkMMBIDzCH4bs0t6RcA9DAtAdUrIGCVyShZ_Szk1jCi6f4duoP8S=s88-c-k-c0x00ffffff-no-rj",[m
+[31m-        "quoc_gia": "US",[m
+[31m-        "channel_creation_date": "2013-09-16",[m
+[31m-        "posting_frequency": 0.4,[m
+[31m-        "total_video": "265",[m
+[31m-        "average_duration": "13m 30s",[m
+[31m-        "total_view": "858776042",[m
+[31m-        "views_30d": "858,776,042",[m
+[31m-        "total_sub": "2190000",[m
+[31m-        "subs_30d": "10,000",[m
+[31m-        "time_stamp": "26052025_154719"[m
+[31m-    }[m
+[31m-][m
+\ No newline at end of file[m
+[1mdiff --git a/module_1.py b/module_1.py[m
+[1mindex 0226a6c..ff3a81b 100644[m
+[1m--- a/module_1.py[m
+[1m+++ b/module_1.py[m
+[36m@@ -60,7 +60,7 @@[m [mdef get_video_info(id_video):[m
+ [m
+ # Hàm khởi tạo trình duyệt với user data mặc định[m
+ # def open_browser_with_profile():[m
+[31m-#     USER_DATA_PATH = r"C:\Users\Admin\AppData\Local\Google\Chrome\User Data - Copy"[m
+[32m+[m[32m#     USER_DATA_PATH = r"C:\Users\duckm\AppData\Local\Google\Chrome\User Data - Copy"[m
+ #     profile = 'Profile 1'[m
+ #     options = Options()[m
+ #     options.add_argument(f"--user-data-dir={USER_DATA_PATH}")  # Đường dẫn đến user data[m
+[36m@@ -70,33 +70,43 @@[m [mdef get_video_info(id_video):[m
+ #     return driver[m
+ [m
+ [m
+[31m-def main(userId,nation):[m
+[32m+[m[32mdef main(nation,userId =1):[m
+     # Lấy thời gian hiện tại[m
+[31m-    load_dotenv()[m
+[32m+[m[32m    load_dotenv("backend2/.env")[m
+     CHATGPT_KEY = os.getenv("CHATGPT_KEY")[m
+     today = datetime.now()[m
+ [m
+     # Format thành chuỗi viết liền: ddmmyyyy[m
+     ngay_thang_nam = today.strftime("%d%m%Y")[m
+     # Kiểm tra và khởi tạo file module_2.json[m
+[31m-    file_path = f"backend_2/function1/{userId}_{ngay_thang_nam}_{nation}.json"[m
+[31m-    if os.path.exists(file_path):[m
+[31m-        # Nếu file tồn tại, xóa dữ liệu cũ[m
+[31m-        with open(file_path, "w", encoding="utf-8") as f:[m
+[31m-            json.dump([], f, ensure_ascii=False, indent=4)[m
+[31m-    else:[m
+[31m-        # Nếu file chưa tồn tại, tạo file mới với dữ liệu rỗng[m
+[31m-        with open(file_path, "w", encoding="utf-8") as f:[m
+[31m-            json.dump([], f, ensure_ascii=False, indent=4)[m
+[32m+[m[32m    file_path = f"backend2/function1/{nation}.json"[m
+[32m+[m[32m    file_path_old = f"backend2/function1/{nation}_old.json"  # Thay bằng đường dẫn file của bạn[m
+[32m+[m
+[32m+[m[32m    # Cách 1: Ghi đè trực tiếp[m
+[32m+[m[32m    with open(file_path_old, "w", encoding="utf-8") as f:[m
+[32m+[m[32m        json.dump([], f, ensure_ascii=False, indent=4)[m
+[32m+[m[32m    # if os.path.exists(file_path):[m
+[32m+[m[32m    #     # Nếu file tồn tại, xóa dữ liệu cũ[m
+[32m+[m[32m    #     with open(file_path, "w", encoding="utf-8") as f:[m
+[32m+[m[32m    #         json.dump([], f, ensure_ascii=False, indent=4)[m
+[32m+[m[32m    # else:[m
+[32m+[m[32m    #     # Nếu file chưa tồn tại, tạo file mới với dữ liệu rỗng[m
+[32m+[m[32m    #     with open(file_path, "w", encoding="utf-8") as f:[m
+[32m+[m[32m    #         json.dump([], f, ensure_ascii=False, indent=4)[m
+     # Đóng tất cả các Chrome đang mở[m
+     # os.system("taskkill /f /im chrome.exe")[m
+     # os.system("taskkill /f /im chromedriver.exe")[m
+     # Mở trình duyệt với Profile 1[m
+     driver = init_driver_from_env()[m
+[32m+[m[32m    sleep(1)[m
+     driver.get("https://www.youtube.com")[m
+     sleep(5)  # Đợi trình duyệt tải xong[m
+[31m-    span_element = driver.find_element(By.XPATH, "//span[text()='Most Viewed']")[m
+[31m-    driver.execute_script("arguments[0].click();", span_element)[m
+[32m+[m[32m    try:[m
+[32m+[m[32m        span_element = driver.find_element(By.XPATH, "//span[text()='Most Viewed']")[m
+[32m+[m[32m        driver.execute_script("arguments[0].click();", span_element)[m
+[32m+[m[32m    except:[m
+[32m+[m[32m        span_element = driver.find_element(By.XPATH, "//span[text()='Được Xem Nhiều Nhất']")[m
+[32m+[m[32m        driver.execute_script("arguments[0].click();", span_element)[m
+     sleep(2)[m
+     # # Tìm phần tử input theo ID[m
+     # input_element = driver.find_element(By.ID, "vidiq-filter-selector-section-radio-2")[m
+[36m@@ -107,7 +117,7 @@[m [mdef main(userId,nation):[m
+         elements = driver.find_elements(By.CSS_SELECTOR, ".css-pksui6.es0z3u0")[m
+         if len(elements) >= 6:[m
+             parent2 = elements[1][m
+[31m-            child_div = parent2.find_element(By.XPATH, ".//div[normalize-space(text())='Any']")[m
+[32m+[m[32m            child_div = parent2.find_element(By.XPATH, ".//div[normalize-space(text())='Any'or normalize-space(text())='Bất kỳ']")[m
+             child_div.click()[m
+             # # Tìm phần tử input theo ID[m
+             input_element = driver.find_element(By.ID, "vidiq-filter-selector-section-radio-2")[m
+[36m@@ -115,7 +125,7 @@[m [mdef main(userId,nation):[m
+             # Ví dụ: click vào input[m
+             driver.execute_script("arguments[0].click();", input_element)[m
+             # Tìm phần tử button có nội dung là 'Save'[m
+[31m-            save_button = parent2.find_element(By.XPATH, ".//button[normalize-space(text())='Save']")[m
+[32m+[m[32m            save_button = parent2.find_element(By.XPATH, ".//button[normalize-space(text())='Save'or normalize-space(text())='Lưu']")[m
+ [m
+             # Click bằng JavaScript[m
+             driver.execute_script("arguments[0].click();", save_button)[m
+[36m@@ -135,9 +145,9 @@[m [mdef main(userId,nation):[m
+     i = 0[m
+ [m
+     # Vòng lặp while[m
+[31m-    while i <= 0:[m
+[32m+[m[32m    while i <= 11:[m
+         # Tìm nút button có text "Load more"[m
+[31m-        load_more_button = driver.find_element(By.XPATH, "//button[normalize-space(text())='Load more']")[m
+[32m+[m[32m        load_more_button = driver.find_element(By.XPATH, "//button[normalize-space(text())='Load more' or normalize-space(text())='Tải thêm']")[m
+ [m
+         # Click vào nút[m
+         driver.execute_script("arguments[0].click();", load_more_button)[m
+[36m@@ -151,7 +161,8 @@[m [mdef main(userId,nation):[m
+     # Mở tab thứ 2 (sử dụng JavaScript)[m
+     driver.execute_script("window.open('https://example.com', '_blank');")[m
+ [m
+[31m-    while t <= 9:[m
+[32m+[m[32m    # while t <= 199:[m
+[32m+[m[32m    while t <= 199:[m
+         ten_kenh = elements[t].find_element(By.CSS_SELECTOR, ".css-g9bmdd.e1pit9a0").text[m
+         tieu_de = elements[t].find_element(By.CSS_SELECTOR, ".css-1thvnkg.en4nady0").text[m
+         # 1. Tìm thẻ <img> là con của parent_element[m
+[36m@@ -360,19 +371,15 @@[m [mdef main(userId,nation):[m
+         # keywords = best['value_1'][m
+         # hashtag = ','.join(item['value_1'] for item in results if item['value_1'] != keywords)[m
+         # Bước 1: Đọc danh sách cũ (nếu có)[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-[m
+[31m-        if os.path.exists(file_path):[m
+[31m-            with open(file_path, "r", encoding="utf-8") as f:[m
+[32m+[m[32m        if os.path.exists(file_path_old):[m
+[32m+[m[32m            with open(file_path_old, "r", encoding="utf-8") as f:[m
+                 try:[m
+                     data = json.load(f)[m
+                 except json.JSONDecodeError:[m
+                     data = [][m
+         else:[m
+             data = [][m
+[31m-[m
+[32m+[m[32m        # data = [][m
+         # Bước 2: Đảm bảo data là list[m
+         # if not isinstance(data, list):[m
+         #     data = [data][m
+[36m@@ -397,7 +404,7 @@[m [mdef main(userId,nation):[m
+         data.append(new_data)[m
+ [m
+         # Bước 4: Ghi lại file[m
+[31m-        with open(file_path, "w", encoding="utf-8") as f:[m
+[32m+[m[32m        with open(file_path_old, "w", encoding="utf-8") as f:[m
+             json.dump(data, f, ensure_ascii=False, indent=4)[m
+         # print(ten_kenh, tieu_de, link_video, tong_view, engagement_rate, view_per_hour, thoi_luong, summary, language, img_src, published_at, like_count, comment_count, id_video)[m
+         driver.switch_to.window(driver.window_handles[0])[m
+[36m@@ -406,6 +413,13 @@[m [mdef main(userId,nation):[m
+ [m
+     # Đóng trình duyệt đầu tiên[m
+     driver.quit()[m
+[32m+[m[32m    # Đọc dữ liệu từ file nguồn[m
+[32m+[m[32m    with open(file_path_old, "r", encoding="utf-8") as f:[m
+[32m+[m[32m        data = json.load(f)[m
+[32m+[m
+[32m+[m[32m    # Ghi đè lên file đích[m
+[32m+[m[32m    with open(file_path, "w", encoding="utf-8") as f:[m
+[32m+[m[32m        json.dump(data, f, ensure_ascii=False, indent=4)[m
+     # Mở và đọc nội dung JSON[m
+     with open(file_path, 'r', encoding='utf-8') as file:[m
+         data = json.load(file)  # data là dict hoặc list tùy nội dung[m
+[36m@@ -415,4 +429,4 @@[m [mdef main(userId,nation):[m
+ [m
+ [m
+ if __name__ == "__main__":[m
+[31m-    main('10','Vietnam')[m
+\ No newline at end of file[m
+[32m+[m[32m    main('India','10')[m
+\ No newline at end of file[m
+[1mdiff --git a/module_2.py b/module_2.py[m
+[1mindex b9fe251..d8c6b8c 100644[m
+[1m--- a/module_2.py[m
+[1m+++ b/module_2.py[m
+[36m@@ -29,15 +29,19 @@[m [mdef chay(user_id,type):[m
+ [m
+ [m
+     # Kiểm tra và khởi tạo file module_2.json[m
+[31m-    file_path = f"backend_2/function2/{user_id}_{ngay_thang_nam}_{type}.json"[m
+[31m-    if os.path.exists(file_path):[m
+[31m-        # Nếu file tồn tại, xóa dữ liệu cũ[m
+[31m-        with open(file_path, "w", encoding="utf-8") as f:[m
+[31m-            json.dump([], f, ensure_ascii=False, indent=4)[m
+[31m-    else:[m
+[31m-        # Nếu file chưa tồn tại, tạo file mới với dữ liệu rỗng[m
+[31m-        with open(file_path, "w", encoding="utf-8") as f:[m
+[31m-            json.dump([], f, ensure_ascii=False, indent=4)[m
+[32m+[m[32m    file_path = f"backend2/function2/{type}.json"[m
+[32m+[m[32m    file_path_old = f"backend2/function1/{type}_old.json"[m
+[32m+[m[32m    # Cách 1: Ghi đè trực tiếp[m
+[32m+[m[32m    with open(file_path_old, "w", encoding="utf-8") as f:[m
+[32m+[m[32m        json.dump([], f, ensure_ascii=False, indent=4)[m
+[32m+[m[32m    # if os.path.exists(file_path):[m
+[32m+[m[32m    #     # Nếu file tồn tại, xóa dữ liệu cũ[m
+[32m+[m[32m    #     with open(file_path, "w", encoding="utf-8") as f:[m
+[32m+[m[32m    #         json.dump([], f, ensure_ascii=False, indent=4)[m
+[32m+[m[32m    # else:[m
+[32m+[m[32m    #     # Nếu file chưa tồn tại, tạo file mới với dữ liệu rỗng[m
+[32m+[m[32m    #     with open(file_path, "w", encoding="utf-8") as f:[m
+[32m+[m[32m    #         json.dump([], f, ensure_ascii=False, indent=4)[m
+ [m
+     # URL của trang web[m
+     if type == 'subs_7d':[m
+[36m@@ -66,13 +70,13 @@[m [mdef chay(user_id,type):[m
+         [m
+         # Lấy tất cả các thẻ <a> là con của div trên[m
+         a_tags = vs_content_div.find_elements(By.TAG_NAME, "a")[m
+[31m-        t = 1[m
+[32m+[m[32m        # t = 1[m
+         driver.execute_script("window.open('https://example.com', '_blank');")[m
+         # Loop qua tất cả các thẻ <a>[m
+         for a_tag in a_tags:[m
+[31m-            t+=1[m
+[31m-            if t>2:[m
+[31m-                break[m
+[32m+[m[32m            # t+=1[m
+[32m+[m[32m            # if t>5:[m
+[32m+[m[32m            #     break[m
+             try:[m
+                 # print(t)[m
+                 # Tìm div có class = vs-item font-medium trong mỗi thẻ <a>[m
+[36m@@ -158,8 +162,8 @@[m [mdef chay(user_id,type):[m
+                     total_view = a_tag.find_element(By.CLASS_NAME, "vs-item.hide-on-mobile-lg").text.strip()[m
+                     # new_data = rank, channel_name, url_channel, new_subs, total_sub, total_view[m
+                     # Bước 1: Đọc danh sách cũ (nếu có)[m
+[31m-                    if os.path.exists(file_path):[m
+[31m-                        with open(file_path, "r", encoding="utf-8") as f:[m
+[32m+[m[32m                    if os.path.exists(file_path_old):[m
+[32m+[m[32m                        with open(file_path_old, "r", encoding="utf-8") as f:[m
+                             try:[m
+                                 data = json.load(f)[m
+                             except json.JSONDecodeError:[m
+[36m@@ -186,7 +190,7 @@[m [mdef chay(user_id,type):[m
+                     data.append(new_data)[m
+ [m
+                     # Bước 4: Ghi lại file[m
+[31m-                    with open(file_path, "w", encoding="utf-8") as f:[m
+[32m+[m[32m                    with open(file_path_old, "w", encoding="utf-8") as f:[m
+                         json.dump(data, f, ensure_ascii=False, indent=4)[m
+ [m
+                     [m
+[36m@@ -198,8 +202,8 @@[m [mdef chay(user_id,type):[m
+                     total_subs = a_tag.find_element(By.CLASS_NAME, "vs-item.hide-on-mobile-lg").text.strip()[m
+                     # new_data = rank, channel_name, url_channel, new_subs, total_sub, total_view[m
+                     # Bước 1: Đọc danh sách cũ (nếu có)[m
+[31m-                    if os.path.exists(file_path):[m
+[31m-                        with open(file_path, "r", encoding="utf-8") as f:[m
+[32m+[m[32m                    if os.path.exists(file_path_old):[m
+[32m+[m[32m                        with open(file_path_old, "r", encoding="utf-8") as f:[m
+                             try:[m
+                                 data = json.load(f)[m
+                             except json.JSONDecodeError:[m
+[36m@@ -226,7 +230,7 @@[m [mdef chay(user_id,type):[m
+                     data.append(new_data)[m
+ [m
+                     # Bước 4: Ghi lại file[m
+[31m-                    with open(file_path, "w", encoding="utf-8") as f:[m
+[32m+[m[32m                    with open(file_path_old, "w", encoding="utf-8") as f:[m
+                         json.dump(data, f, ensure_ascii=False, indent=4)[m
+             except Exception as e:[m
+                 # Nếu không tìm thấy div bên trong thẻ <a>, bỏ qua[m
+[36m@@ -239,6 +243,13 @@[m [mdef chay(user_id,type):[m
+     finally:[m
+         # Đóng trình duyệt[m
+         driver.quit()[m
+[32m+[m[32m    # Đọc dữ liệu từ file nguồn[m
+[32m+[m[32m    with open(file_path_old, "r", encoding="utf-8") as f:[m
+[32m+[m[32m        data = json.load(f)[m
+[32m+[m
+[32m+[m[32m    # Ghi đè lên file đích[m
+[32m+[m[32m    with open(file_path, "w", encoding="utf-8") as f:[m
+[32m+[m[32m        json.dump(data, f, ensure_ascii=False, indent=4)[m
+     with open(file_path, 'r', encoding='utf-8') as file:[m
+         data = json.load(file)  # data là dict hoặc list tùy nội dung[m
+     return data[m
+[1mdiff --git a/module_3.py b/module_3.py[m
+[1mindex 3bc745e..bf31a84 100644[m
+[1m--- a/module_3.py[m
+[1m+++ b/module_3.py[m
+[36m@@ -23,7 +23,7 @@[m [mthread_registry = {}[m
+ stop_flags = {}[m
+ [m
+ # def open_browser_with_profile():[m
+[31m-#     USER_DATA_PATH = r"C:\Users\Admin\AppData\Local\Google\Chrome\User Data - Copy"[m
+[32m+[m[32m#     USER_DATA_PATH = r"C:\Users\duckm\AppData\Local\Google\Chrome\User Data - Copy"[m
+ #     profile = 'Profile 1'[m
+ #     options = Options()[m
+ #     options.add_argument(f"--user-data-dir={USER_DATA_PATH}")[m
+[36m@@ -37,7 +37,7 @@[m [mdef extract_hashtags(text):[m
+     return ', '.join(hashtags)[m
+ [m
+ def get_channel_info(userId, url):[m
+[31m-    load_dotenv()[m
+[32m+[m[32m    load_dotenv("backend2/.env")[m
+     CHATGPT_KEY = os.getenv("CHATGPT_KEY")[m
+     today = datetime.now()[m
+     ngay_thang_nam = today.strftime("%d%m%Y")[m
+[36m@@ -120,14 +120,16 @@[m [mdef get_channel_info(userId, url):[m
+     except:[m
+         tu_khoa_SEO = ''[m
+     driver.quit()[m
+[31m-[m
+[31m-    file_path = f"backend_2/function3/{userId}_{ngay_thang_nam}_{ten_kenh}_track_competitor.json"[m
+[32m+[m[32m    cleaned_url = re.sub(r'[\\/:*?"<>|]', '_', url)[m
+[32m+[m[32m    print(cleaned_url)[m
+[32m+[m[32m    file_path = f"backend2/function3/{cleaned_url}_track_competitor.json"[m
+     data = [][m
+[31m-    if os.path.exists(file_path):[m
+[31m-        with open(file_path, "w", encoding="utf-8") as f:[m
+[31m-            json.dump([], f, ensure_ascii=False, indent=2)[m
+[32m+[m[32m    # if os.path.exists(file_path):[m
+[32m+[m[32m    #     with open(file_path, "w", encoding="utf-8") as f:[m
+[32m+[m[32m    #         json.dump([], f, ensure_ascii=False, indent=2)[m
+ [m
+     new_data = {[m
+[32m+[m[32m        "opponentUrl": url,[m
+         "channel_name": ten_kenh,[m
+         "avata": avata,[m
+         "channel_description": mo_ta,[m
+[36m@@ -159,7 +161,7 @@[m [mdef get_channel_info(userId, url):[m
+ [m
+     def update_thread_in_db():[m
+         try:[m
+[31m-            update_url = "http://192.168.1.99:3001/api/functions/3/update-threadId"[m
+[32m+[m[32m            update_url = "http://192.168.1.52:3001/api/functions/3/update-threadId"[m
+             payload = {"competitorUrl": url, "threadId": thread_id}[m
+             response = requests.post(update_url, json=payload)[m
+             print(f"[UPDATE] Status: {response.status_code}, Message: {response.text}")[m
+[36m@@ -171,33 +173,33 @@[m [mdef get_channel_info(userId, url):[m
+     return data[m
+ [m
+ def loop_check_new_video(url, tong_video, stop_event,file_path):[m
+[31m-    # while not stop_event.is_set():[m
+[31m-    while True:[m
+[32m+[m[32m    while not stop_event.is_set():[m
+[32m+[m[32m    # while True:[m
+         fields = ['videoCount'][m
+         info = get_channel_info_by_url(url, fields)[m
+         check_video = info['videoCount'][m
+         print(tong_video)[m
+         print(check_video)[m
+[31m-        if int(tong_video) - 3 == int(check_video):[m
+[32m+[m[32m        if int(tong_video) == int(check_video):[m
+             # sleep(3600)[m
+             sleep(1)[m
+[31m-        elif int(tong_video) - 3  < int(check_video):[m
+[31m-            n = int(check_video) - int(tong_video) + 3[m
+[32m+[m[32m        elif int(tong_video) < int(check_video):[m
+[32m+[m[32m            n = int(check_video) - int(tong_video)[m
+             print(f'chay tim được {n}video')[m
+             video_links = get_latest_video_links_by_handle(url, n)[m
+             print(url)[m
+             print(n)[m
+             print('linkvideo là' )[m
+             print(video_links)[m
+[31m-            t = threading.Thread(target=sub_module3, args=(video_links,file_path,url), daemon=False)[m
+[32m+[m[32m            t = threading.Thread(target=sub_module3, args=(video_links,file_path,url), daemon=True)[m
+             t.start()[m
+             # for link in video_links:[m
+             #     t = threading.Thread(target=sub_module3, args=([link],file_path), daemon=True)[m
+             #     t.start()[m
+         tong_video = int(check_video)[m
+         print('chay vong lap')[m
+[31m-        # sleep(43200)[m
+         sleep(3600)[m
+[32m+[m[32m        # sleep(10)[m
+ if __name__ == "__main__":[m
+     # ✅ Ví dụ sử dụng[m
+     API_KEY = "AIzaSyCNCzV0Nxh2VlPC5Qhdh4mgxWTmPBXVIaw"[m
+[1mdiff --git a/module_4.py b/module_4.py[m
+[1mindex d88e7d4..6545ad7 100644[m
+[1m--- a/module_4.py[m
+[1m+++ b/module_4.py[m
+[36m@@ -25,7 +25,7 @@[m [mfrom module_initialize_driver import init_driver_from_env[m
+ [m
+ # Hàm khởi tạo trình duyệt với user data mặc định[m
+ # def open_browser_with_profile():[m
+[31m-#     USER_DATA_PATH = r"C:\Users\Admin\AppData\Local\Google\Chrome\User Data - Copy"[m
+[32m+[m[32m#     USER_DATA_PATH = r"C:\Users\duckm\AppData\Local\Google\Chrome\User Data - Copy"[m
+ #     profile = 'Profile 1'[m
+ #     options = Options()[m
+ #     options.add_argument(f"--user-data-dir={USER_DATA_PATH}")  # Đường dẫn đến user data[m
+[36m@@ -41,13 +41,13 @@[m [mdef phan_tich_chu_de(userId,ten_nhom,chuoi_tu_khoa, time_range,view_min = 0,view[m
+     # api_key = "AIzaSyCNCzV0Nxh2VlPC5Qhdh4mgxWTmPBXVIaw"[m
+     # Lấy thời gian hiện tại[m
+     # file_path = f"function4/{userId}_{ngay_thang_nam}_{tu_khoa}_{time_range}.json"[m
+[31m-    load_dotenv()[m
+[32m+[m[32m    load_dotenv("backend2/.env")[m
+     CHATGPT_KEY = os.getenv("CHATGPT_KEY")[m
+     today = datetime.now()[m
+ [m
+     # Format thành chuỗi viết liền: ddmmyyyy[m
+     ngay_thang_nam = today.strftime("%d%m%Y")[m
+[31m-    file_path = f"backend_2/function4/{userId}_{ngay_thang_nam}_{ten_nhom}_{time_range}.json"[m
+[32m+[m[32m    file_path = f"backend2/function4/{userId}_{ngay_thang_nam}_{ten_nhom}_{time_range}.json"[m
+     # Ghi vào file input.json[m
+     # Nếu file không tồn tại hoặc rỗng → tạo file với nội dung [][m
+     if not os.path.exists(file_path) or os.path.getsize(file_path) == 0:[m
+[36m@@ -77,13 +77,14 @@[m [mdef phan_tich_chu_de(userId,ten_nhom,chuoi_tu_khoa, time_range,view_min = 0,view[m
+         search_box.send_keys(Keys.ENTER)[m
+         sleep(5)[m
+         # Tìm phần tử theo thuộc tính aria-label và click[m
+[31m-        filter_button = driver.find_element(By.CSS_SELECTOR, '[aria-label="Bộ lọc tìm kiếm"]')[m
+[32m+[m[32m        # filter_button = driver.find_element(By.CSS_SELECTOR, '[aria-label="Bộ lọc tìm kiếm"]')[m
+[32m+[m[32m        filter_button = driver.find_element(By.CSS_SELECTOR, '[aria-label="Bộ lọc tìm kiếm"], [aria-label="Search filters"]')[m
+         filter_button.click()[m
+         if time_range == "week":[m
+[31m-            element = driver.find_element(By.XPATH, '//yt-formatted-string[text()="Tuần này"]')[m
+[32m+[m[32m            element = driver.find_element(By.XPATH, '//yt-formatted-string[text()="Tuần này" or text()="This week"]')[m
+             driver.execute_script("arguments[0].click();", element)[m
+         elif time_range == "month":[m
+[31m-            element = driver.find_element(By.XPATH, '//yt-formatted-string[text()="Tháng này"]')[m
+[32m+[m[32m            element = driver.find_element(By.XPATH, '//yt-formatted-string[text()="Tháng này" or text()="This month"]')[m
+             driver.execute_script("arguments[0].click();", element)[m
+         sleep(5)[m
+         for i in range(5):[m
+[36m@@ -96,13 +97,16 @@[m [mdef phan_tich_chu_de(userId,ten_nhom,chuoi_tu_khoa, time_range,view_min = 0,view[m
+         # for idx, info in enumerate(channel_infos):[m
+         driver.execute_script("window.open('https://example.com', '_blank');")[m
+         x=1[m
+[32m+[m[32m        processed_urls = [][m
+         for idx, a_tag in enumerate(a_tags):[m
+[31m-            if x>=3:[m
+[31m-                break[m
+[31m-            x+=1[m
+[32m+[m[41m            [m
+             # print(a_tag.get_attribute("outerHTML"))[m
+             # a_tag = element.find_element(By.ID, "channel-thumbnail")[m
+             url = a_tag.get_attribute("href")[m
+[32m+[m[32m            if url in processed_urls:[m
+[32m+[m[32m                print(f"URL {url} đã được xử lý, bỏ qua...")[m
+[32m+[m[32m                continue  # Bỏ qua và chạy lần lặp tiếp theo[m
+[32m+[m[32m            processed_urls.append(url)[m
+             print('dương dan la'+ url)[m
+             [m
+             fields = ['title', 'description', 'publishedAt', 'thumbnails',[m
+[36m@@ -321,6 +325,9 @@[m [mdef phan_tich_chu_de(userId,ten_nhom,chuoi_tu_khoa, time_range,view_min = 0,view[m
+ [m
+ [m
+             driver.switch_to.window(driver.window_handles[0])[m
+[32m+[m[32m            # if x>=10:[m
+[32m+[m[32m            #     break[m
+[32m+[m[32m            # x+=1[m
+             [m
+     # Đóng trình duyệt[m
+     driver.quit()[m
+[1mdiff --git a/module_5.py b/module_5.py[m
+[1mindex 2232068..1c91c05 100644[m
+[1m--- a/module_5.py[m
+[1m+++ b/module_5.py[m
+[36m@@ -13,7 +13,7 @@[m [mfrom module_initialize_driver import init_driver_from_env[m
+ from module_youtube_api_manager import YouTubeAPIManager[m
+ yt_api = YouTubeAPIManager()[m
+ # def open_browser_with_profile():[m
+[31m-#     USER_DATA_PATH = r"C:\Users\Admin\AppData\Local\Google\Chrome\User Data - Copy"[m
+[32m+[m[32m#     USER_DATA_PATH = r"C:\Users\duckm\AppData\Local\Google\Chrome\User Data - Copy"[m
+ #     options = Options()[m
+ #     try:[m
+ #         options.add_argument(f"--user-data-dir={USER_DATA_PATH}")[m
+[36m@@ -74,7 +74,7 @@[m [mdef get_channel_module_5(userId, url):[m
+         tan_suat_dang = round(int(tong_video)/(n/7), 1) if tong_video and n else 0.0[m
+     except Exception as e:[m
+         print(f"Lỗi tính tần suất đăng: {str(e)}")[m
+[31m-[m
+[32m+[m[32m#opponentUrl[m
+     # Xử lý thời lượng trung bình[m
+     try:[m
+         video_ids = get_video_ids_by_channel(url, max_results=20)[m
+[36m@@ -85,7 +85,7 @@[m [mdef get_channel_module_5(userId, url):[m
+ [m
+     # Tạo và ghi file JSON[m
+     try:[m
+[31m-        file_path = f"backend_2/function5/{userId}_{ngay_thang_nam}_{ten_kenh}.json"[m
+[32m+[m[32m        file_path = f"backend2/function5/{userId}_{ngay_thang_nam}_{ten_kenh}.json"[m
+         data = [][m
+         if os.path.exists(file_path):[m
+             with open(file_path, "r", encoding="utf-8") as f:[m
+[36m@@ -97,6 +97,7 @@[m [mdef get_channel_module_5(userId, url):[m
+                     data = [][m
+ [m
+         new_data = {[m
+[32m+[m[32m            "opponentUrl" :url,[m
+             "channel_name": ten_kenh or "",[m
+             "avata": avata or "",[m
+             "quoc_gia": quoc_gia or "",[m
+[1mdiff --git a/module_fetch_data.py b/module_fetch_data.py[m
+[1mindex 0cb1cff..d35a61f 100644[m
+[1m--- a/module_fetch_data.py[m
+[1m+++ b/module_fetch_data.py[m
+[36m@@ -9,13 +9,13 @@[m [mdef find_and_load_json(partial_names: List[str], directory) -> list:[m
+     Trả về danh sách chứa nội dung các file JSON.[m
+     """[m
+     result = [][m
+[31m-[m
+[32m+[m[32m    directory = os.path.join("backend2", directory)[m
+     if not os.path.exists(directory):[m
+         print(f"❌ Thư mục '{directory}' không tồn tại.")[m
+         return result[m
+ [m
+     for filename in os.listdir(directory):[m
+[31m-        if filename.endswith('.json') and any(p in filename for p in partial_names):[m
+[32m+[m[32m        if filename.endswith('.json') and all(p in filename for p in partial_names if p):[m
+             file_path = os.path.join(directory, filename)[m
+             try:[m
+                 with open(file_path, 'r', encoding='utf-8') as f:[m
+[1mdiff --git a/module_initialize_driver.py b/module_initialize_driver.py[m
+[1mindex ca81508..6ebed26 100644[m
+[1m--- a/module_initialize_driver.py[m
+[1m+++ b/module_initialize_driver.py[m
+[36m@@ -5,7 +5,7 @@[m [mimport chromedriver_autoinstaller[m
+ import os[m
+ import time[m
+ [m
+[31m-def init_driver_from_env(env_path=".env", headless=False, wait_between=1):[m
+[32m+[m[32mdef init_driver_from_env(env_path="backend2/.env", headless=False, wait_between=1):[m
+     """[m
+     Đọc các user-data-dir từ file .env và thử khởi tạo driver với từng profile.[m
+     [m
+[36m@@ -30,6 +30,7 @@[m [mdef init_driver_from_env(env_path=".env", headless=False, wait_between=1):[m
+             options.add_argument(f"--profile-directory={profile}")[m
+             options.add_argument("--no-sandbox")[m
+             options.add_argument("--disable-dev-shm-usage")[m
+[32m+[m[32m            options.add_argument("--start-maximized")[m
+             if headless:[m
+                 options.add_argument("--headless=new")[m
+ [m
+[1mdiff --git a/module_sub_module3.py b/module_sub_module3.py[m
+[1mindex 517a324..7d89224 100644[m
+[1m--- a/module_sub_module3.py[m
+[1m+++ b/module_sub_module3.py[m
+[36m@@ -54,7 +54,7 @@[m [mdef sub_module3(video_ids,file_path,url):[m
+         with open(file_path, "w") as f:[m
+             json.dump(records, f, indent=4)[m
+         [m
+[31m-        t = threading.Thread(target=loop_component, args=(file_path, item ,id_video,url), daemon=False)[m
+[32m+[m[32m        t = threading.Thread(target=loop_component, args=(file_path, item ,id_video,url), daemon=True)[m
+         t.start()[m
+         sleep(5)[m
+ [m
+[36m@@ -100,5 +100,6 @@[m [mdef loop_component(file_path,link,id_video,url_kenh):[m
+         # Ngủ 1 giờ[m
+         print("😴 Tạm dừng 1 giờ...\n")[m
+         print("Start")[m
+[31m-        sleep(3600)[m
+[32m+[m[32m        # sleep(3600)[m
+[32m+[m[32m        sleep(10)[m
+         print("End")[m
+[1mdiff --git a/module_youtube_api_manager.py b/module_youtube_api_manager.py[m
+[1mindex b7095be..d275309 100644[m
+[1m--- a/module_youtube_api_manager.py[m
+[1m+++ b/module_youtube_api_manager.py[m
+[36m@@ -4,7 +4,7 @@[m [mfrom dotenv import load_dotenv[m
+ [m
+ class YouTubeAPIManager:[m
+     def __init__(self):[m
+[31m-        load_dotenv()  # Load API keys từ file .env[m
+[32m+[m[32m        load_dotenv("backend2/.env")  # Load API keys từ file .env[m
+         raw_keys = os.getenv("YT_API_KEYS")[m
+         if not raw_keys:[m
+             raise ValueError("Không tìm thấy API keys trong biến môi trường YT_API_KEYS")[m
+[1mdiff --git a/request_flask.py b/request_flask.py[m
+[1mindex 60492ef..6f07b30 100644[m
+[1m--- a/request_flask.py[m
+[1m+++ b/request_flask.py[m
+[36m@@ -5,6 +5,7 @@[m [mfrom module_3 import get_channel_info, stop_flags[m
+ from module_4 import phan_tich_chu_de[m
+ from module_5 import get_channel_module_5[m
+ from module_fetch_data import find_and_load_json[m
+[32m+[m[32mimport re[m
+ [m
+ app = Flask(__name__)[m
+ [m
+[36m@@ -15,7 +16,7 @@[m [mdef module1_handler():[m
+     if function =='function1':[m
+         user_id = request.args.get('userId')[m
+         country = request.args.get('country')[m
+[31m-        data = main(user_id, country)[m
+[32m+[m[32m        data = main(country,user_id)[m
+         return jsonify(data)[m
+ [m
+     elif function =='function2':[m
+[36m@@ -46,11 +47,12 @@[m [mdef module1_handler():[m
+ [m
+     elif function =='function4':[m
+         user_id = request.args.get('userId')[m
+[32m+[m[32m        group_name = request.args.get('groupName')[m
+         keywordGroup = request.args.get('keywordGroup')[m
+         timeRange = request.args.get('timeRange')[m
+         viewRangeMin = request.args.get('viewRangeMin')[m
+         viewRangeMax = request.args.get('viewRangeMax')[m
+[31m-        data = phan_tich_chu_de(user_id, keywordGroup, timeRange, viewRangeMin,viewRangeMax)[m
+[32m+[m[32m        data = phan_tich_chu_de(user_id, group_name, keywordGroup, timeRange, viewRangeMin,viewRangeMax)[m
+         return jsonify(data)[m
+ [m
+     elif function == 'function5':[m
+[36m@@ -71,10 +73,12 @@[m [mdef stop_thread():[m
+ @app.route('/module1/fetch-data/', methods=['GET'])[m
+ def module1_data():[m
+     function = request.args.get('function')[m
+[31m-    user_id = request.args.get('userId') or ''[m
+[31m-    date = request.args.get('date') or ''[m
+[32m+[m[32m    # user_id = request.args.get('userId') or ''[m
+[32m+[m[32m    # date = request.args.get('date') or ''[m
+[32m+[m[32m    username = request.args.get('username') or ''[m
+[32m+[m[32m    cleaned_username = cleaned_url = re.sub(r'[\\/:*?"<>|]', '_', username)[m
+     country = request.args.get('country') or ''[m
+[31m-    data = find_and_load_json([user_id,date,country], function)[m
+[32m+[m[32m    data = find_and_load_json([cleaned_username,country], function)[m
+     return jsonify(data)[m
+ [m
+ if __name__ == '__main__':[m
+[1mdiff --git a/sub_module1.py b/sub_module1.py[m
+[1mnew file mode 100644[m
+[1mindex 0000000..3b00066[m
+[1m--- /dev/null[m
+[1m+++ b/sub_module1.py[m
+[36m@@ -0,0 +1,73 @@[m
+[32m+[m[32mimport multiprocessing[m
+[32m+[m[32mimport os[m
+[32m+[m[32mimport schedule[m
+[32m+[m[32mimport time[m
+[32m+[m[32mfrom datetime import datetime[m
+[32m+[m[32mfrom dotenv import load_dotenv[m
+[32m+[m[32mfrom module_1 import main[m
+[32m+[m
+[32m+[m[32m# Load environment variables from .env file[m
+[32m+[m[32mload_dotenv("backend2/.env")[m
+[32m+[m
+[32m+[m
+[32m+[m[32mdef worker(country):[m
+[32m+[m[32m    """[m
+[32m+[m[32m    Worker function để chạy trong mỗi process[m
+[32m+[m[32m    """[m
+[32m+[m[32m    try:[m
+[32m+[m[32m        result = main(country)[m
+[32m+[m[32m        print(result)[m
+[32m+[m[32m        return result[m
+[32m+[m[32m    except Exception as e:[m
+[32m+[m[32m        print(f"Lỗi khi xử lý {country}: {e}")[m
+[32m+[m[32m        return None[m
+[32m+[m
+[32m+[m[32mdef multiprocess():[m
+[32m+[m[32m    """[m
+[32m+[m[32m    Hàm chính để chạy multiprocessing job[m
+[32m+[m[32m    """[m
+[32m+[m[32m    print(f"\n=== Bắt đầu job lúc {datetime.now().strftime('%Y-%m-%d %H:%M:%S')} ===")[m
+[32m+[m[41m    [m
+[32m+[m[32m    # Lấy danh sách các nước từ file .env[m
+[32m+[m[32m    countries_str = os.getenv('COUNTRIES', '')[m
+[32m+[m[41m    [m
+[32m+[m[32m    if not countries_str:[m
+[32m+[m[32m        print("Không tìm thấy danh sách COUNTRIES trong file .env")[m
+[32m+[m[32m        return[m
+[32m+[m[41m    [m
+[32m+[m[32m    # Chuyển string thành list[m
+[32m+[m[32m    countries = [country.strip() for country in countries_str.split(',')][m
+[32m+[m[32m    print(f"Danh sách các nước: {countries}")[m
+[32m+[m[41m    [m
+[32m+[m[32m    # Tạo Pool với 4 processes[m
+[32m+[m[32m    with multiprocessing.Pool(processes=4) as pool:[m
+[32m+[m[32m        # Chạy function cho tất cả countries song song[m
+[32m+[m[32m        results = pool.map(worker, countries)[m
+[32m+[m[41m    [m
+[32m+[m[32m    print("Hoàn thành tất cả các tiến trình!")[m
+[32m+[m[32m    print(f"Kết quả: {results}")[m
+[32m+[m[32m    print(f"=== Kết thúc job lúc {datetime.now().strftime('%Y-%m-%d %H:%M:%S')} ===\n")[m
+[32m+[m
+[32m+[m[32mdef run_scheduler():[m
+[32m+[m[32m    """[m
+[32m+[m[32m    Khởi động scheduler[m
+[32m+[m[32m    """[m
+[32m+[m[32m    # Lên lịch chạy job[m
+[32m+[m[32m    schedule.every().day.at("00:00").do(multiprocess)  # 0 giờ[m
+[32m+[m[32m    schedule.every().day.at("12:00").do(multiprocess)  # 12 giờ[m
+[32m+[m[41m    [m
+[32m+[m[32m    print("Scheduler đã được khởi động!")[m
+[32m+[m[32m    print("Chương trình sẽ chạy lúc 00:00 và 12:00 hàng ngày")[m
+[32m+[m[32m    print("Nhấn Ctrl+C để dừng chương trình")[m
+[32m+[m[32m    print("Đang chờ đến giờ chạy...")[m
+[32m+[m[41m    [m
+[32m+[m[32m    # Vòng lặp chờ schedule[m
+[32m+[m[32m    try:[m
+[32m+[m[32m        while True:[m
+[32m+[m[32m            schedule.run_pending()[m
+[32m+[m[32m            time.sleep(60)  # Kiểm tra mỗi 60 giây[m
+[32m+[m[32m    except KeyboardInterrupt:[m
+[32m+[m[32m        print("\nChương trình đã được dừng bởi người dùng")[m
+[32m+[m
+[32m+[m[32mif __name__ == "__main__":[m
+[32m+[m[32m    run_scheduler()[m
+\ No newline at end of file[m
+[1mdiff --git a/sub_module2.py b/sub_module2.py[m
+[1mnew file mode 100644[m
+[1mindex 0000000..dcd797b[m
+[1m--- /dev/null[m
+[1m+++ b/sub_module2.py[m
+[36m@@ -0,0 +1,24 @@[m
+[32m+[m[32mimport schedule[m
+[32m+[m[32mimport time[m
+[32m+[m[32mfrom datetime import datetime[m
+[32m+[m[32mfrom module_2 import chay[m
+[32m+[m
+[32m+[m[32m# Đây là hàm bạn muốn chạy[m
+[32m+[m[32mdef my_task():[m
+[32m+[m[32m    chay('1','views_7d')[m
+[32m+[m[32m    chay('1','views_30d')[m
+[32m+[m[32m    chay('1','views_3m')[m
+[32m+[m[32m    chay('1','subs_7d')[m
+[32m+[m[32m    chay('1','subs_30d')[m
+[32m+[m[32m    chay('1','subs_3m')[m
+[32m+[m
+[32m+[m[32m# Lên lịch chạy hàm vào 00:00 và 12:00 hàng ngày[m
+[32m+[m[32mschedule.every().day.at("00:00").do(my_task)[m
+[32m+[m[32mschedule.every().day.at("12:00").do(my_task)[m
+[32m+[m
+[32m+[m[32mprint("Đang chạy lịch trình... Nhấn Ctrl+C để dừng.")[m
+[32m+[m
+[32m+[m[32m# Vòng lặp chính kiểm tra lịch[m
+[32m+[m[32mwhile True:[m
+[32m+[m[32m    schedule.run_pending()[m
+[32m+[m[32m    time.sleep(1)[m

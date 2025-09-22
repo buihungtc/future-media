@@ -1,0 +1,1379 @@
+[
+    {
+        "opponentUrl": "https://www.youtube.com/@vtv24",
+        "channel_name": "VTV24",
+        "avata": "https://yt3.ggpht.com/WkRGl-uLsgZ8pwNxDnWTk6J1Xji1ZTOyyGia_dNapDkYnVDhlYu2X4Klc8hfdBY4CS15G7DPvFA=s88-c-k-c0x00ffffff-no-rj",
+        "channel_description": "Kênh Youtube Chính Thức Của VTV Digital - Đài Truyền Hình Việt Nam\n\nVTV24 là đơn vị sản xuất các bản tin Tài chính kinh doanh & Chuyển động 24h với những thông tin thời sự được cập nhật nhanh chóng, chính xác nhất.\n\nĐồng hành cùng VTV24 tại:\nFanpage chính thức      : fb.com/tintucvtv24\nChuyên trang Tài Chính: fb.com/vtv24money\nZalo                                  : zalo.me/1571891271885013375\nYoutube Channel           : youtube.com/vtv24\nTiktok                               :tiktok.com/@vtv24news\nTwitter                              : https://twitter.com/vtvdigitalnews\n",
+        "quoc_gia": "VN",
+        "channel_creation_date": "2016-02-17",
+        "channel_genre": "hybrid",
+        "posting_frequency": 101.2,
+        "total_video": 50158,
+        "video_30d": "671",
+        "language": null,
+        "total_view": 5355337287,
+        "views_30d": "46,426,898",
+        "total_sub": 6620000,
+        "subs_30d": "40,000",
+        "hashtags": "",
+        "SEO_keywords": "VTV24, VTV1, Tin Tức, Thời Sự VTV24, Tin Tức VTV24, tin tức thời sự, thời sự vtv1, chuyển động 24h, chuyển động 24, tin tức vtv1, tin tức vtv, euro 2020",
+        "videos": [
+            {
+                "id_video": 2,
+                "url_video": "https://www.youtube.com/watch?v=RX2_trj9ZR4",
+                "tieu_de": "Tổng thống Mỹ Donald Trump và lãnh đạo một số nước châu Âu họp bàn về Ucraina | Cụm tin | VTV24",
+                "track": [
+                    {
+                        "luot_xem": 1409,
+                        "luot_thich": 33,
+                        "binh_luan": 0,
+                        "sub_now": 6620000,
+                        "time": "2025-08-19 11:35:46",
+                        "loop_number": 1,
+                        "debug_info": {
+                            "thread_name": "VideoTracker-2-RX2_trj9",
+                            "target_video_id": 2,
+                            "youtube_id": "RX2_trj9ZR4",
+                            "timestamp": 1755578146.5875773
+                        }
+                    },
+                    {
+                        "luot_xem": 4074,
+                        "luot_thich": 69,
+                        "binh_luan": 0,
+                        "sub_now": 6620000,
+                        "time": "2025-08-19 12:37:08",
+                        "loop_number": 2,
+                        "debug_info": {
+                            "thread_name": "VideoTracker-2-RX2_trj9",
+                            "target_video_id": 2,
+                            "youtube_id": "RX2_trj9ZR4",
+                            "timestamp": 1755581828.3354201
+                        }
+                    },
+                    {
+                        "luot_xem": 5913,
+                        "luot_thich": 83,
+                        "binh_luan": 0,
+                        "sub_now": 6620000,
+                        "time": "2025-08-19 13:38:29",
+                        "loop_number": 3,
+                        "debug_info": {
+                            "thread_name": "VideoTracker-2-RX2_trj9",
+                            "target_video_id": 2,
+                            "youtube_id": "RX2_trj9ZR4",
+                            "timestamp": 1755585509.3344958
+                        }
+                    },
+                    {
+                        "luot_xem": 9232,
+                        "luot_thich": 94,
+                        "binh_luan": 0,
+                        "sub_now": 6620000,
+                        "time": "2025-08-19 14:39:26",
+                        "loop_number": 4,
+                        "debug_info": {
+                            "thread_name": "VideoTracker-2-RX2_trj9",
+                            "target_video_id": 2,
+                            "youtube_id": "RX2_trj9ZR4",
+                            "timestamp": 1755589166.0322368
+                        }
+                    },
+                    {
+                        "luot_xem": 11029,
+                        "luot_thich": 102,
+                        "binh_luan": 0,
+                        "sub_now": 6620000,
+                        "time": "2025-08-19 15:40:14",
+                        "loop_number": 5,
+                        "debug_info": {
+                            "thread_name": "VideoTracker-2-RX2_trj9",
+                            "target_video_id": 2,
+                            "youtube_id": "RX2_trj9ZR4",
+                            "timestamp": 1755592814.0474765
+                        }
+                    },
+                    {
+                        "luot_xem": 13358,
+                        "luot_thich": 108,
+                        "binh_luan": 0,
+                        "sub_now": 6620000,
+                        "time": "2025-08-19 16:41:06",
+                        "loop_number": 6,
+                        "debug_info": {
+                            "thread_name": "VideoTracker-2-RX2_trj9",
+                            "target_video_id": 2,
+                            "youtube_id": "RX2_trj9ZR4",
+                            "timestamp": 1755596466.7955527
+                        }
+                    },
+                    {
+                        "luot_xem": 14510,
+                        "luot_thich": 111,
+                        "binh_luan": 0,
+                        "sub_now": 6620000,
+                        "time": "2025-08-19 17:42:02",
+                        "loop_number": 7,
+                        "debug_info": {
+                            "thread_name": "VideoTracker-2-RX2_trj9",
+                            "target_video_id": 2,
+                            "youtube_id": "RX2_trj9ZR4",
+                            "timestamp": 1755600122.712366
+                        }
+                    },
+                    {
+                        "luot_xem": 15493,
+                        "luot_thich": 115,
+                        "binh_luan": 0,
+                        "sub_now": 6620000,
+                        "time": "2025-08-19 18:42:50",
+                        "loop_number": 8,
+                        "debug_info": {
+                            "thread_name": "VideoTracker-2-RX2_trj9",
+                            "target_video_id": 2,
+                            "youtube_id": "RX2_trj9ZR4",
+                            "timestamp": 1755603770.0021813
+                        }
+                    },
+                    {
+                        "luot_xem": 16232,
+                        "luot_thich": 121,
+                        "binh_luan": 0,
+                        "sub_now": 6620000,
+                        "time": "2025-08-19 19:43:37",
+                        "loop_number": 9,
+                        "debug_info": {
+                            "thread_name": "VideoTracker-2-RX2_trj9",
+                            "target_video_id": 2,
+                            "youtube_id": "RX2_trj9ZR4",
+                            "timestamp": 1755607417.0143309
+                        }
+                    },
+                    {
+                        "luot_xem": 17163,
+                        "luot_thich": 124,
+                        "binh_luan": 0,
+                        "sub_now": 6620000,
+                        "time": "2025-08-19 20:44:29",
+                        "loop_number": 10,
+                        "debug_info": {
+                            "thread_name": "VideoTracker-2-RX2_trj9",
+                            "target_video_id": 2,
+                            "youtube_id": "RX2_trj9ZR4",
+                            "timestamp": 1755611069.3085518
+                        }
+                    },
+                    {
+                        "luot_xem": 18329,
+                        "luot_thich": 126,
+                        "binh_luan": 0,
+                        "sub_now": 6620000,
+                        "time": "2025-08-19 21:45:12",
+                        "loop_number": 11,
+                        "debug_info": {
+                            "thread_name": "VideoTracker-2-RX2_trj9",
+                            "target_video_id": 2,
+                            "youtube_id": "RX2_trj9ZR4",
+                            "timestamp": 1755614712.0286703
+                        }
+                    },
+                    {
+                        "luot_xem": 19148,
+                        "luot_thich": 127,
+                        "binh_luan": 0,
+                        "sub_now": 6620000,
+                        "time": "2025-08-19 22:45:55",
+                        "loop_number": 12,
+                        "debug_info": {
+                            "thread_name": "VideoTracker-2-RX2_trj9",
+                            "target_video_id": 2,
+                            "youtube_id": "RX2_trj9ZR4",
+                            "timestamp": 1755618355.5531213
+                        }
+                    },
+                    {
+                        "luot_xem": 20101,
+                        "luot_thich": 127,
+                        "binh_luan": 0,
+                        "sub_now": 6620000,
+                        "time": "2025-08-19 23:46:33",
+                        "loop_number": 13,
+                        "debug_info": {
+                            "thread_name": "VideoTracker-2-RX2_trj9",
+                            "target_video_id": 2,
+                            "youtube_id": "RX2_trj9ZR4",
+                            "timestamp": 1755621993.8877661
+                        }
+                    },
+                    {
+                        "luot_xem": 20763,
+                        "luot_thich": 129,
+                        "binh_luan": 0,
+                        "sub_now": 6620000,
+                        "time": "2025-08-20 00:47:55",
+                        "loop_number": 14,
+                        "debug_info": {
+                            "thread_name": "VideoTracker-2-RX2_trj9",
+                            "target_video_id": 2,
+                            "youtube_id": "RX2_trj9ZR4",
+                            "timestamp": 1755625675.4951308
+                        }
+                    },
+                    {
+                        "luot_xem": 20998,
+                        "luot_thich": 128,
+                        "binh_luan": 0,
+                        "sub_now": 6620000,
+                        "time": "2025-08-20 01:48:48",
+                        "loop_number": 15,
+                        "debug_info": {
+                            "thread_name": "VideoTracker-2-RX2_trj9",
+                            "target_video_id": 2,
+                            "youtube_id": "RX2_trj9ZR4",
+                            "timestamp": 1755629328.0109835
+                        }
+                    },
+                    {
+                        "luot_xem": 21123,
+                        "luot_thich": 128,
+                        "binh_luan": 0,
+                        "sub_now": 6620000,
+                        "time": "2025-08-20 02:49:41",
+                        "loop_number": 16,
+                        "debug_info": {
+                            "thread_name": "VideoTracker-2-RX2_trj9",
+                            "target_video_id": 2,
+                            "youtube_id": "RX2_trj9ZR4",
+                            "timestamp": 1755632981.7972772
+                        }
+                    },
+                    {
+                        "luot_xem": 21213,
+                        "luot_thich": 129,
+                        "binh_luan": 0,
+                        "sub_now": 6620000,
+                        "time": "2025-08-20 03:50:31",
+                        "loop_number": 17,
+                        "debug_info": {
+                            "thread_name": "VideoTracker-2-RX2_trj9",
+                            "target_video_id": 2,
+                            "youtube_id": "RX2_trj9ZR4",
+                            "timestamp": 1755636631.0008762
+                        }
+                    },
+                    {
+                        "luot_xem": 21154,
+                        "luot_thich": 129,
+                        "binh_luan": 0,
+                        "sub_now": 6620000,
+                        "time": "2025-08-20 04:51:09",
+                        "loop_number": 18,
+                        "debug_info": {
+                            "thread_name": "VideoTracker-2-RX2_trj9",
+                            "target_video_id": 2,
+                            "youtube_id": "RX2_trj9ZR4",
+                            "timestamp": 1755640269.943093
+                        }
+                    },
+                    {
+                        "luot_xem": 21154,
+                        "luot_thich": 129,
+                        "binh_luan": 0,
+                        "sub_now": 6620000,
+                        "time": "2025-08-20 05:51:53",
+                        "loop_number": 19,
+                        "debug_info": {
+                            "thread_name": "VideoTracker-2-RX2_trj9",
+                            "target_video_id": 2,
+                            "youtube_id": "RX2_trj9ZR4",
+                            "timestamp": 1755643913.0616322
+                        }
+                    },
+                    {
+                        "luot_xem": 21270,
+                        "luot_thich": 129,
+                        "binh_luan": 0,
+                        "sub_now": 6620000,
+                        "time": "2025-08-20 06:52:36",
+                        "loop_number": 20,
+                        "debug_info": {
+                            "thread_name": "VideoTracker-2-RX2_trj9",
+                            "target_video_id": 2,
+                            "youtube_id": "RX2_trj9ZR4",
+                            "timestamp": 1755647556.743696
+                        }
+                    },
+                    {
+                        "luot_xem": 21707,
+                        "luot_thich": 131,
+                        "binh_luan": 0,
+                        "sub_now": 6620000,
+                        "time": "2025-08-20 07:52:24",
+                        "loop_number": 21,
+                        "debug_info": {
+                            "thread_name": "VideoTracker-2-RX2_trj9",
+                            "target_video_id": 2,
+                            "youtube_id": "RX2_trj9ZR4",
+                            "timestamp": 1755651144.9415417
+                        }
+                    },
+                    {
+                        "luot_xem": 21890,
+                        "luot_thich": 132,
+                        "binh_luan": 0,
+                        "sub_now": 6620000,
+                        "time": "2025-08-20 08:53:06",
+                        "loop_number": 22,
+                        "debug_info": {
+                            "thread_name": "VideoTracker-2-RX2_trj9",
+                            "target_video_id": 2,
+                            "youtube_id": "RX2_trj9ZR4",
+                            "timestamp": 1755654786.8460712
+                        }
+                    },
+                    {
+                        "luot_xem": 22030,
+                        "luot_thich": 132,
+                        "binh_luan": 0,
+                        "sub_now": 6620000,
+                        "time": "2025-08-20 09:53:54",
+                        "loop_number": 23,
+                        "debug_info": {
+                            "thread_name": "VideoTracker-2-RX2_trj9",
+                            "target_video_id": 2,
+                            "youtube_id": "RX2_trj9ZR4",
+                            "timestamp": 1755658434.274756
+                        }
+                    },
+                    {
+                        "luot_xem": 22174,
+                        "luot_thich": 132,
+                        "binh_luan": 0,
+                        "sub_now": 6620000,
+                        "time": "2025-08-20 10:54:49",
+                        "loop_number": 24,
+                        "debug_info": {
+                            "thread_name": "VideoTracker-2-RX2_trj9",
+                            "target_video_id": 2,
+                            "youtube_id": "RX2_trj9ZR4",
+                            "timestamp": 1755662089.964272
+                        }
+                    },
+                    {
+                        "luot_xem": 22000,
+                        "luot_thich": 132,
+                        "binh_luan": 0,
+                        "sub_now": 6620000,
+                        "time": "2025-08-20 11:55:32",
+                        "loop_number": 25,
+                        "debug_info": {
+                            "thread_name": "VideoTracker-2-RX2_trj9",
+                            "target_video_id": 2,
+                            "youtube_id": "RX2_trj9ZR4",
+                            "timestamp": 1755665732.444649
+                        }
+                    },
+                    {
+                        "luot_xem": 22000,
+                        "luot_thich": 132,
+                        "binh_luan": 0,
+                        "sub_now": 6620000,
+                        "time": "2025-08-20 12:56:54",
+                        "loop_number": 26,
+                        "debug_info": {
+                            "thread_name": "VideoTracker-2-RX2_trj9",
+                            "target_video_id": 2,
+                            "youtube_id": "RX2_trj9ZR4",
+                            "timestamp": 1755669414.6901906
+                        }
+                    },
+                    {
+                        "luot_xem": 22000,
+                        "luot_thich": 132,
+                        "binh_luan": 0,
+                        "sub_now": 6620000,
+                        "time": "2025-08-20 14:57:43",
+                        "loop_number": 28,
+                        "debug_info": {
+                            "thread_name": "VideoTracker-2-RX2_trj9",
+                            "target_video_id": 2,
+                            "youtube_id": "RX2_trj9ZR4",
+                            "timestamp": 1755676663.5983474
+                        }
+                    },
+                    {
+                        "luot_xem": 22000,
+                        "luot_thich": 132,
+                        "binh_luan": 0,
+                        "sub_now": 6620000,
+                        "time": "2025-08-20 15:58:22",
+                        "loop_number": 29,
+                        "debug_info": {
+                            "thread_name": "VideoTracker-2-RX2_trj9",
+                            "target_video_id": 2,
+                            "youtube_id": "RX2_trj9ZR4",
+                            "timestamp": 1755680302.657855
+                        }
+                    },
+                    {
+                        "luot_xem": 22000,
+                        "luot_thich": 132,
+                        "binh_luan": 0,
+                        "sub_now": 6620000,
+                        "time": "2025-08-20 16:59:04",
+                        "loop_number": 30,
+                        "debug_info": {
+                            "thread_name": "VideoTracker-2-RX2_trj9",
+                            "target_video_id": 2,
+                            "youtube_id": "RX2_trj9ZR4",
+                            "timestamp": 1755683944.1443121
+                        }
+                    },
+                    {
+                        "luot_xem": 22000,
+                        "luot_thich": 132,
+                        "binh_luan": 0,
+                        "sub_now": 6620000,
+                        "time": "2025-08-20 17:59:41",
+                        "loop_number": 31,
+                        "debug_info": {
+                            "thread_name": "VideoTracker-2-RX2_trj9",
+                            "target_video_id": 2,
+                            "youtube_id": "RX2_trj9ZR4",
+                            "timestamp": 1755687581.6228516
+                        }
+                    },
+                    {
+                        "luot_xem": 22000,
+                        "luot_thich": 132,
+                        "binh_luan": 0,
+                        "sub_now": 6620000,
+                        "time": "2025-08-20 19:00:21",
+                        "loop_number": 32,
+                        "debug_info": {
+                            "thread_name": "VideoTracker-2-RX2_trj9",
+                            "target_video_id": 2,
+                            "youtube_id": "RX2_trj9ZR4",
+                            "timestamp": 1755691221.0229893
+                        }
+                    },
+                    {
+                        "luot_xem": 22000,
+                        "luot_thich": 132,
+                        "binh_luan": 0,
+                        "sub_now": 6620000,
+                        "time": "2025-08-20 20:01:28",
+                        "loop_number": 33,
+                        "debug_info": {
+                            "thread_name": "VideoTracker-2-RX2_trj9",
+                            "target_video_id": 2,
+                            "youtube_id": "RX2_trj9ZR4",
+                            "timestamp": 1755694888.9257562
+                        }
+                    },
+                    {
+                        "luot_xem": 22000,
+                        "luot_thich": 132,
+                        "binh_luan": 0,
+                        "sub_now": 6620000,
+                        "time": "2025-08-20 21:02:02",
+                        "loop_number": 34,
+                        "debug_info": {
+                            "thread_name": "VideoTracker-2-RX2_trj9",
+                            "target_video_id": 2,
+                            "youtube_id": "RX2_trj9ZR4",
+                            "timestamp": 1755698522.302767
+                        }
+                    },
+                    {
+                        "luot_xem": 22000,
+                        "luot_thich": 132,
+                        "binh_luan": 0,
+                        "sub_now": 6620000,
+                        "time": "2025-08-20 22:02:44",
+                        "loop_number": 35,
+                        "debug_info": {
+                            "thread_name": "VideoTracker-2-RX2_trj9",
+                            "target_video_id": 2,
+                            "youtube_id": "RX2_trj9ZR4",
+                            "timestamp": 1755702164.8539324
+                        }
+                    },
+                    {
+                        "luot_xem": 22000,
+                        "luot_thich": 133,
+                        "binh_luan": 0,
+                        "sub_now": 6620000,
+                        "time": "2025-08-20 23:03:26",
+                        "loop_number": 36,
+                        "debug_info": {
+                            "thread_name": "VideoTracker-2-RX2_trj9",
+                            "target_video_id": 2,
+                            "youtube_id": "RX2_trj9ZR4",
+                            "timestamp": 1755705806.1455128
+                        }
+                    },
+                    {
+                        "luot_xem": 22000,
+                        "luot_thich": 133,
+                        "binh_luan": 0,
+                        "sub_now": 6620000,
+                        "time": "2025-08-21 00:04:36",
+                        "loop_number": 37,
+                        "debug_info": {
+                            "thread_name": "VideoTracker-2-RX2_trj9",
+                            "target_video_id": 2,
+                            "youtube_id": "RX2_trj9ZR4",
+                            "timestamp": 1755709476.2075071
+                        }
+                    },
+                    {
+                        "luot_xem": 22000,
+                        "luot_thich": 133,
+                        "binh_luan": 0,
+                        "sub_now": 6620000,
+                        "time": "2025-08-21 01:05:53",
+                        "loop_number": 38,
+                        "debug_info": {
+                            "thread_name": "VideoTracker-2-RX2_trj9",
+                            "target_video_id": 2,
+                            "youtube_id": "RX2_trj9ZR4",
+                            "timestamp": 1755713153.7468643
+                        }
+                    },
+                    {
+                        "luot_xem": 22000,
+                        "luot_thich": 134,
+                        "binh_luan": 0,
+                        "sub_now": 6620000,
+                        "time": "2025-08-21 02:07:17",
+                        "loop_number": 39,
+                        "debug_info": {
+                            "thread_name": "VideoTracker-2-RX2_trj9",
+                            "target_video_id": 2,
+                            "youtube_id": "RX2_trj9ZR4",
+                            "timestamp": 1755716837.06789
+                        }
+                    },
+                    {
+                        "luot_xem": 22000,
+                        "luot_thich": 134,
+                        "binh_luan": 0,
+                        "sub_now": 6620000,
+                        "time": "2025-08-21 03:08:01",
+                        "loop_number": 40,
+                        "debug_info": {
+                            "thread_name": "VideoTracker-2-RX2_trj9",
+                            "target_video_id": 2,
+                            "youtube_id": "RX2_trj9ZR4",
+                            "timestamp": 1755720481.3807385
+                        }
+                    },
+                    {
+                        "luot_xem": 22000,
+                        "luot_thich": 134,
+                        "binh_luan": 0,
+                        "sub_now": 6620000,
+                        "time": "2025-08-21 04:08:41",
+                        "loop_number": 41,
+                        "debug_info": {
+                            "thread_name": "VideoTracker-2-RX2_trj9",
+                            "target_video_id": 2,
+                            "youtube_id": "RX2_trj9ZR4",
+                            "timestamp": 1755724121.0159242
+                        }
+                    },
+                    {
+                        "luot_xem": 22000,
+                        "luot_thich": 134,
+                        "binh_luan": 0,
+                        "sub_now": 6620000,
+                        "time": "2025-08-21 05:09:21",
+                        "loop_number": 42,
+                        "debug_info": {
+                            "thread_name": "VideoTracker-2-RX2_trj9",
+                            "target_video_id": 2,
+                            "youtube_id": "RX2_trj9ZR4",
+                            "timestamp": 1755727761.2513397
+                        }
+                    },
+                    {
+                        "luot_xem": 22000,
+                        "luot_thich": 134,
+                        "binh_luan": 0,
+                        "sub_now": 6620000,
+                        "time": "2025-08-21 06:10:03",
+                        "loop_number": 43,
+                        "debug_info": {
+                            "thread_name": "VideoTracker-2-RX2_trj9",
+                            "target_video_id": 2,
+                            "youtube_id": "RX2_trj9ZR4",
+                            "timestamp": 1755731403.0999727
+                        }
+                    },
+                    {
+                        "luot_xem": 22000,
+                        "luot_thich": 134,
+                        "binh_luan": 0,
+                        "sub_now": 6620000,
+                        "time": "2025-08-21 07:10:43",
+                        "loop_number": 44,
+                        "debug_info": {
+                            "thread_name": "VideoTracker-2-RX2_trj9",
+                            "target_video_id": 2,
+                            "youtube_id": "RX2_trj9ZR4",
+                            "timestamp": 1755735043.6393206
+                        }
+                    },
+                    {
+                        "luot_xem": 22000,
+                        "luot_thich": 134,
+                        "binh_luan": 0,
+                        "sub_now": 6620000,
+                        "time": "2025-08-21 08:11:21",
+                        "loop_number": 45,
+                        "debug_info": {
+                            "thread_name": "VideoTracker-2-RX2_trj9",
+                            "target_video_id": 2,
+                            "youtube_id": "RX2_trj9ZR4",
+                            "timestamp": 1755738681.835412
+                        }
+                    },
+                    {
+                        "luot_xem": 22000,
+                        "luot_thich": 134,
+                        "binh_luan": 0,
+                        "sub_now": 6620000,
+                        "time": "2025-08-21 09:12:01",
+                        "loop_number": 46,
+                        "debug_info": {
+                            "thread_name": "VideoTracker-2-RX2_trj9",
+                            "target_video_id": 2,
+                            "youtube_id": "RX2_trj9ZR4",
+                            "timestamp": 1755742321.5204577
+                        }
+                    },
+                    {
+                        "luot_xem": 22000,
+                        "luot_thich": 134,
+                        "binh_luan": 0,
+                        "sub_now": 6620000,
+                        "time": "2025-08-21 10:12:44",
+                        "loop_number": 47,
+                        "debug_info": {
+                            "thread_name": "VideoTracker-2-RX2_trj9",
+                            "target_video_id": 2,
+                            "youtube_id": "RX2_trj9ZR4",
+                            "timestamp": 1755745964.068084
+                        }
+                    },
+                    {
+                        "luot_xem": 23000,
+                        "luot_thich": 134,
+                        "binh_luan": 0,
+                        "sub_now": 6620000,
+                        "time": "2025-08-21 11:13:38",
+                        "loop_number": 48,
+                        "debug_info": {
+                            "thread_name": "VideoTracker-2-RX2_trj9",
+                            "target_video_id": 2,
+                            "youtube_id": "RX2_trj9ZR4",
+                            "timestamp": 1755749618.2143862
+                        }
+                    }
+                ],
+                "debug_info": {
+                    "youtube_id": "RX2_trj9ZR4",
+                    "created_at": "2025-08-19 11:34:58",
+                    "thread_will_track": "VideoTracker-2",
+                    "created_timestamp": 1755578098.2612922
+                }
+            },
+            {
+                "id_video": 1,
+                "url_video": "https://www.youtube.com/watch?v=DVKoolvu4TY",
+                "tieu_de": "Cách mạng Tháng Tám năm 1945: Bước ngoặt lịch sử | VTV24",
+                "track": [
+                    {
+                        "luot_xem": 394,
+                        "luot_thich": 17,
+                        "binh_luan": 0,
+                        "sub_now": 6620000,
+                        "time": "2025-08-19 11:35:45",
+                        "loop_number": 1,
+                        "debug_info": {
+                            "thread_name": "VideoTracker-1-DVKoolvu",
+                            "target_video_id": 1,
+                            "youtube_id": "DVKoolvu4TY",
+                            "timestamp": 1755578145.8127856
+                        }
+                    },
+                    {
+                        "luot_xem": 1974,
+                        "luot_thich": 108,
+                        "binh_luan": 0,
+                        "sub_now": 6620000,
+                        "time": "2025-08-19 12:37:00",
+                        "loop_number": 2,
+                        "debug_info": {
+                            "thread_name": "VideoTracker-1-DVKoolvu",
+                            "target_video_id": 1,
+                            "youtube_id": "DVKoolvu4TY",
+                            "timestamp": 1755581820.1734529
+                        }
+                    },
+                    {
+                        "luot_xem": 2888,
+                        "luot_thich": 163,
+                        "binh_luan": 0,
+                        "sub_now": 6620000,
+                        "time": "2025-08-19 13:38:13",
+                        "loop_number": 3,
+                        "debug_info": {
+                            "thread_name": "VideoTracker-1-DVKoolvu",
+                            "target_video_id": 1,
+                            "youtube_id": "DVKoolvu4TY",
+                            "timestamp": 1755585493.5466244
+                        }
+                    },
+                    {
+                        "luot_xem": 5006,
+                        "luot_thich": 209,
+                        "binh_luan": 0,
+                        "sub_now": 6620000,
+                        "time": "2025-08-19 14:39:08",
+                        "loop_number": 4,
+                        "debug_info": {
+                            "thread_name": "VideoTracker-1-DVKoolvu",
+                            "target_video_id": 1,
+                            "youtube_id": "DVKoolvu4TY",
+                            "timestamp": 1755589148.4993572
+                        }
+                    },
+                    {
+                        "luot_xem": 6659,
+                        "luot_thich": 252,
+                        "binh_luan": 0,
+                        "sub_now": 6620000,
+                        "time": "2025-08-19 15:39:51",
+                        "loop_number": 5,
+                        "debug_info": {
+                            "thread_name": "VideoTracker-1-DVKoolvu",
+                            "target_video_id": 1,
+                            "youtube_id": "DVKoolvu4TY",
+                            "timestamp": 1755592791.1461527
+                        }
+                    },
+                    {
+                        "luot_xem": 8554,
+                        "luot_thich": 284,
+                        "binh_luan": 0,
+                        "sub_now": 6620000,
+                        "time": "2025-08-19 16:40:54",
+                        "loop_number": 6,
+                        "debug_info": {
+                            "thread_name": "VideoTracker-1-DVKoolvu",
+                            "target_video_id": 1,
+                            "youtube_id": "DVKoolvu4TY",
+                            "timestamp": 1755596454.6272972
+                        }
+                    },
+                    {
+                        "luot_xem": 10414,
+                        "luot_thich": 304,
+                        "binh_luan": 0,
+                        "sub_now": 6620000,
+                        "time": "2025-08-19 17:41:37",
+                        "loop_number": 7,
+                        "debug_info": {
+                            "thread_name": "VideoTracker-1-DVKoolvu",
+                            "target_video_id": 1,
+                            "youtube_id": "DVKoolvu4TY",
+                            "timestamp": 1755600097.2104545
+                        }
+                    },
+                    {
+                        "luot_xem": 12357,
+                        "luot_thich": 320,
+                        "binh_luan": 0,
+                        "sub_now": 6620000,
+                        "time": "2025-08-19 18:42:44",
+                        "loop_number": 8,
+                        "debug_info": {
+                            "thread_name": "VideoTracker-1-DVKoolvu",
+                            "target_video_id": 1,
+                            "youtube_id": "DVKoolvu4TY",
+                            "timestamp": 1755603764.4084194
+                        }
+                    },
+                    {
+                        "luot_xem": 13741,
+                        "luot_thich": 369,
+                        "binh_luan": 0,
+                        "sub_now": 6620000,
+                        "time": "2025-08-19 19:43:23",
+                        "loop_number": 9,
+                        "debug_info": {
+                            "thread_name": "VideoTracker-1-DVKoolvu",
+                            "target_video_id": 1,
+                            "youtube_id": "DVKoolvu4TY",
+                            "timestamp": 1755607403.913736
+                        }
+                    },
+                    {
+                        "luot_xem": 15780,
+                        "luot_thich": 394,
+                        "binh_luan": 0,
+                        "sub_now": 6620000,
+                        "time": "2025-08-19 20:44:03",
+                        "loop_number": 10,
+                        "debug_info": {
+                            "thread_name": "VideoTracker-1-DVKoolvu",
+                            "target_video_id": 1,
+                            "youtube_id": "DVKoolvu4TY",
+                            "timestamp": 1755611043.0369065
+                        }
+                    },
+                    {
+                        "luot_xem": 19161,
+                        "luot_thich": 429,
+                        "binh_luan": 0,
+                        "sub_now": 6620000,
+                        "time": "2025-08-19 21:44:46",
+                        "loop_number": 11,
+                        "debug_info": {
+                            "thread_name": "VideoTracker-1-DVKoolvu",
+                            "target_video_id": 1,
+                            "youtube_id": "DVKoolvu4TY",
+                            "timestamp": 1755614686.0182416
+                        }
+                    },
+                    {
+                        "luot_xem": 21496,
+                        "luot_thich": 454,
+                        "binh_luan": 0,
+                        "sub_now": 6620000,
+                        "time": "2025-08-19 22:45:24",
+                        "loop_number": 12,
+                        "debug_info": {
+                            "thread_name": "VideoTracker-1-DVKoolvu",
+                            "target_video_id": 1,
+                            "youtube_id": "DVKoolvu4TY",
+                            "timestamp": 1755618324.4486344
+                        }
+                    },
+                    {
+                        "luot_xem": 24814,
+                        "luot_thich": 480,
+                        "binh_luan": 0,
+                        "sub_now": 6620000,
+                        "time": "2025-08-19 23:46:06",
+                        "loop_number": 13,
+                        "debug_info": {
+                            "thread_name": "VideoTracker-1-DVKoolvu",
+                            "target_video_id": 1,
+                            "youtube_id": "DVKoolvu4TY",
+                            "timestamp": 1755621966.7020087
+                        }
+                    },
+                    {
+                        "luot_xem": 27009,
+                        "luot_thich": 495,
+                        "binh_luan": 0,
+                        "sub_now": 6620000,
+                        "time": "2025-08-20 00:47:27",
+                        "loop_number": 14,
+                        "debug_info": {
+                            "thread_name": "VideoTracker-1-DVKoolvu",
+                            "target_video_id": 1,
+                            "youtube_id": "DVKoolvu4TY",
+                            "timestamp": 1755625647.6195035
+                        }
+                    },
+                    {
+                        "luot_xem": 28369,
+                        "luot_thich": 507,
+                        "binh_luan": 0,
+                        "sub_now": 6620000,
+                        "time": "2025-08-20 01:48:17",
+                        "loop_number": 15,
+                        "debug_info": {
+                            "thread_name": "VideoTracker-1-DVKoolvu",
+                            "target_video_id": 1,
+                            "youtube_id": "DVKoolvu4TY",
+                            "timestamp": 1755629297.5834136
+                        }
+                    },
+                    {
+                        "luot_xem": 30888,
+                        "luot_thich": 512,
+                        "binh_luan": 0,
+                        "sub_now": 6620000,
+                        "time": "2025-08-20 02:49:06",
+                        "loop_number": 16,
+                        "debug_info": {
+                            "thread_name": "VideoTracker-1-DVKoolvu",
+                            "target_video_id": 1,
+                            "youtube_id": "DVKoolvu4TY",
+                            "timestamp": 1755632946.0979123
+                        }
+                    },
+                    {
+                        "luot_xem": 33915,
+                        "luot_thich": 515,
+                        "binh_luan": 0,
+                        "sub_now": 6620000,
+                        "time": "2025-08-20 03:49:55",
+                        "loop_number": 17,
+                        "debug_info": {
+                            "thread_name": "VideoTracker-1-DVKoolvu",
+                            "target_video_id": 1,
+                            "youtube_id": "DVKoolvu4TY",
+                            "timestamp": 1755636595.2627332
+                        }
+                    },
+                    {
+                        "luot_xem": 36170,
+                        "luot_thich": 520,
+                        "binh_luan": 0,
+                        "sub_now": 6620000,
+                        "time": "2025-08-20 04:50:36",
+                        "loop_number": 18,
+                        "debug_info": {
+                            "thread_name": "VideoTracker-1-DVKoolvu",
+                            "target_video_id": 1,
+                            "youtube_id": "DVKoolvu4TY",
+                            "timestamp": 1755640236.868929
+                        }
+                    },
+                    {
+                        "luot_xem": 37530,
+                        "luot_thich": 525,
+                        "binh_luan": 0,
+                        "sub_now": 6620000,
+                        "time": "2025-08-20 05:51:21",
+                        "loop_number": 19,
+                        "debug_info": {
+                            "thread_name": "VideoTracker-1-DVKoolvu",
+                            "target_video_id": 1,
+                            "youtube_id": "DVKoolvu4TY",
+                            "timestamp": 1755643881.1855447
+                        }
+                    },
+                    {
+                        "luot_xem": 38007,
+                        "luot_thich": 535,
+                        "binh_luan": 0,
+                        "sub_now": 6620000,
+                        "time": "2025-08-20 06:52:29",
+                        "loop_number": 20,
+                        "debug_info": {
+                            "thread_name": "VideoTracker-1-DVKoolvu",
+                            "target_video_id": 1,
+                            "youtube_id": "DVKoolvu4TY",
+                            "timestamp": 1755647549.739226
+                        }
+                    },
+                    {
+                        "luot_xem": 38663,
+                        "luot_thich": 545,
+                        "binh_luan": 0,
+                        "sub_now": 6620000,
+                        "time": "2025-08-20 07:52:06",
+                        "loop_number": 21,
+                        "debug_info": {
+                            "thread_name": "VideoTracker-1-DVKoolvu",
+                            "target_video_id": 1,
+                            "youtube_id": "DVKoolvu4TY",
+                            "timestamp": 1755651126.1574259
+                        }
+                    },
+                    {
+                        "luot_xem": 39646,
+                        "luot_thich": 572,
+                        "binh_luan": 0,
+                        "sub_now": 6620000,
+                        "time": "2025-08-20 08:52:48",
+                        "loop_number": 22,
+                        "debug_info": {
+                            "thread_name": "VideoTracker-1-DVKoolvu",
+                            "target_video_id": 1,
+                            "youtube_id": "DVKoolvu4TY",
+                            "timestamp": 1755654768.4796078
+                        }
+                    },
+                    {
+                        "luot_xem": 41108,
+                        "luot_thich": 589,
+                        "binh_luan": 0,
+                        "sub_now": 6620000,
+                        "time": "2025-08-20 09:53:55",
+                        "loop_number": 23,
+                        "debug_info": {
+                            "thread_name": "VideoTracker-1-DVKoolvu",
+                            "target_video_id": 1,
+                            "youtube_id": "DVKoolvu4TY",
+                            "timestamp": 1755658435.6976733
+                        }
+                    },
+                    {
+                        "luot_xem": 42773,
+                        "luot_thich": 609,
+                        "binh_luan": 0,
+                        "sub_now": 6620000,
+                        "time": "2025-08-20 10:54:52",
+                        "loop_number": 24,
+                        "debug_info": {
+                            "thread_name": "VideoTracker-1-DVKoolvu",
+                            "target_video_id": 1,
+                            "youtube_id": "DVKoolvu4TY",
+                            "timestamp": 1755662092.6110022
+                        }
+                    },
+                    {
+                        "luot_xem": 44000,
+                        "luot_thich": 627,
+                        "binh_luan": 0,
+                        "sub_now": 6620000,
+                        "time": "2025-08-20 11:55:53",
+                        "loop_number": 25,
+                        "debug_info": {
+                            "thread_name": "VideoTracker-1-DVKoolvu",
+                            "target_video_id": 1,
+                            "youtube_id": "DVKoolvu4TY",
+                            "timestamp": 1755665753.400212
+                        }
+                    },
+                    {
+                        "luot_xem": 46000,
+                        "luot_thich": 636,
+                        "binh_luan": 0,
+                        "sub_now": 6620000,
+                        "time": "2025-08-20 12:57:14",
+                        "loop_number": 26,
+                        "debug_info": {
+                            "thread_name": "VideoTracker-1-DVKoolvu",
+                            "target_video_id": 1,
+                            "youtube_id": "DVKoolvu4TY",
+                            "timestamp": 1755669434.2202332
+                        }
+                    },
+                    {
+                        "luot_xem": 48000,
+                        "luot_thich": 642,
+                        "binh_luan": 0,
+                        "sub_now": 6620000,
+                        "time": "2025-08-20 13:57:57",
+                        "loop_number": 27,
+                        "debug_info": {
+                            "thread_name": "VideoTracker-1-DVKoolvu",
+                            "target_video_id": 1,
+                            "youtube_id": "DVKoolvu4TY",
+                            "timestamp": 1755673077.6522982
+                        }
+                    },
+                    {
+                        "luot_xem": 49000,
+                        "luot_thich": 645,
+                        "binh_luan": 0,
+                        "sub_now": 6620000,
+                        "time": "2025-08-20 14:58:36",
+                        "loop_number": 28,
+                        "debug_info": {
+                            "thread_name": "VideoTracker-1-DVKoolvu",
+                            "target_video_id": 1,
+                            "youtube_id": "DVKoolvu4TY",
+                            "timestamp": 1755676716.1827133
+                        }
+                    },
+                    {
+                        "luot_xem": 50000,
+                        "luot_thich": 650,
+                        "binh_luan": 0,
+                        "sub_now": 6620000,
+                        "time": "2025-08-20 15:59:13",
+                        "loop_number": 29,
+                        "debug_info": {
+                            "thread_name": "VideoTracker-1-DVKoolvu",
+                            "target_video_id": 1,
+                            "youtube_id": "DVKoolvu4TY",
+                            "timestamp": 1755680353.6700244
+                        }
+                    },
+                    {
+                        "luot_xem": null,
+                        "luot_thich": null,
+                        "binh_luan": null,
+                        "sub_now": 6620000,
+                        "time": "2025-08-20 17:00:45",
+                        "loop_number": 30,
+                        "debug_info": {
+                            "thread_name": "VideoTracker-1-DVKoolvu",
+                            "target_video_id": 1,
+                            "youtube_id": "DVKoolvu4TY",
+                            "timestamp": 1755684045.8522363
+                        }
+                    },
+                    {
+                        "luot_xem": null,
+                        "luot_thich": null,
+                        "binh_luan": null,
+                        "sub_now": 6620000,
+                        "time": "2025-08-20 18:02:17",
+                        "loop_number": 31,
+                        "debug_info": {
+                            "thread_name": "VideoTracker-1-DVKoolvu",
+                            "target_video_id": 1,
+                            "youtube_id": "DVKoolvu4TY",
+                            "timestamp": 1755687737.909593
+                        }
+                    },
+                    {
+                        "luot_xem": null,
+                        "luot_thich": null,
+                        "binh_luan": null,
+                        "sub_now": 6620000,
+                        "time": "2025-08-20 19:03:50",
+                        "loop_number": 32,
+                        "debug_info": {
+                            "thread_name": "VideoTracker-1-DVKoolvu",
+                            "target_video_id": 1,
+                            "youtube_id": "DVKoolvu4TY",
+                            "timestamp": 1755691430.0606155
+                        }
+                    },
+                    {
+                        "luot_xem": null,
+                        "luot_thich": null,
+                        "binh_luan": null,
+                        "sub_now": 6620000,
+                        "time": "2025-08-20 20:05:22",
+                        "loop_number": 33,
+                        "debug_info": {
+                            "thread_name": "VideoTracker-1-DVKoolvu",
+                            "target_video_id": 1,
+                            "youtube_id": "DVKoolvu4TY",
+                            "timestamp": 1755695122.7484732
+                        }
+                    },
+                    {
+                        "luot_xem": null,
+                        "luot_thich": null,
+                        "binh_luan": null,
+                        "sub_now": 6620000,
+                        "time": "2025-08-20 21:06:54",
+                        "loop_number": 34,
+                        "debug_info": {
+                            "thread_name": "VideoTracker-1-DVKoolvu",
+                            "target_video_id": 1,
+                            "youtube_id": "DVKoolvu4TY",
+                            "timestamp": 1755698814.7787833
+                        }
+                    },
+                    {
+                        "luot_xem": null,
+                        "luot_thich": null,
+                        "binh_luan": null,
+                        "sub_now": 6620000,
+                        "time": "2025-08-20 22:08:26",
+                        "loop_number": 35,
+                        "debug_info": {
+                            "thread_name": "VideoTracker-1-DVKoolvu",
+                            "target_video_id": 1,
+                            "youtube_id": "DVKoolvu4TY",
+                            "timestamp": 1755702506.8109412
+                        }
+                    },
+                    {
+                        "luot_xem": null,
+                        "luot_thich": null,
+                        "binh_luan": null,
+                        "sub_now": 6620000,
+                        "time": "2025-08-20 23:09:58",
+                        "loop_number": 36,
+                        "debug_info": {
+                            "thread_name": "VideoTracker-1-DVKoolvu",
+                            "target_video_id": 1,
+                            "youtube_id": "DVKoolvu4TY",
+                            "timestamp": 1755706198.9085302
+                        }
+                    },
+                    {
+                        "luot_xem": null,
+                        "luot_thich": null,
+                        "binh_luan": null,
+                        "sub_now": 6620000,
+                        "time": "2025-08-21 00:11:58",
+                        "loop_number": 37,
+                        "debug_info": {
+                            "thread_name": "VideoTracker-1-DVKoolvu",
+                            "target_video_id": 1,
+                            "youtube_id": "DVKoolvu4TY",
+                            "timestamp": 1755709918.8765395
+                        }
+                    },
+                    {
+                        "luot_xem": null,
+                        "luot_thich": null,
+                        "binh_luan": null,
+                        "sub_now": 6620000,
+                        "time": "2025-08-21 01:14:09",
+                        "loop_number": 38,
+                        "debug_info": {
+                            "thread_name": "VideoTracker-1-DVKoolvu",
+                            "target_video_id": 1,
+                            "youtube_id": "DVKoolvu4TY",
+                            "timestamp": 1755713649.6434662
+                        }
+                    },
+                    {
+                        "luot_xem": null,
+                        "luot_thich": null,
+                        "binh_luan": null,
+                        "sub_now": 6620000,
+                        "time": "2025-08-21 02:15:44",
+                        "loop_number": 39,
+                        "debug_info": {
+                            "thread_name": "VideoTracker-1-DVKoolvu",
+                            "target_video_id": 1,
+                            "youtube_id": "DVKoolvu4TY",
+                            "timestamp": 1755717344.2552762
+                        }
+                    },
+                    {
+                        "luot_xem": null,
+                        "luot_thich": null,
+                        "binh_luan": null,
+                        "sub_now": 6620000,
+                        "time": "2025-08-21 03:17:16",
+                        "loop_number": 40,
+                        "debug_info": {
+                            "thread_name": "VideoTracker-1-DVKoolvu",
+                            "target_video_id": 1,
+                            "youtube_id": "DVKoolvu4TY",
+                            "timestamp": 1755721036.378211
+                        }
+                    },
+                    {
+                        "luot_xem": null,
+                        "luot_thich": null,
+                        "binh_luan": null,
+                        "sub_now": 6620000,
+                        "time": "2025-08-21 04:18:58",
+                        "loop_number": 41,
+                        "debug_info": {
+                            "thread_name": "VideoTracker-1-DVKoolvu",
+                            "target_video_id": 1,
+                            "youtube_id": "DVKoolvu4TY",
+                            "timestamp": 1755724738.4798422
+                        }
+                    },
+                    {
+                        "luot_xem": null,
+                        "luot_thich": null,
+                        "binh_luan": null,
+                        "sub_now": 6620000,
+                        "time": "2025-08-21 05:20:30",
+                        "loop_number": 42,
+                        "debug_info": {
+                            "thread_name": "VideoTracker-1-DVKoolvu",
+                            "target_video_id": 1,
+                            "youtube_id": "DVKoolvu4TY",
+                            "timestamp": 1755728430.6624334
+                        }
+                    },
+                    {
+                        "luot_xem": null,
+                        "luot_thich": null,
+                        "binh_luan": null,
+                        "sub_now": 6620000,
+                        "time": "2025-08-21 06:22:02",
+                        "loop_number": 43,
+                        "debug_info": {
+                            "thread_name": "VideoTracker-1-DVKoolvu",
+                            "target_video_id": 1,
+                            "youtube_id": "DVKoolvu4TY",
+                            "timestamp": 1755732122.9135396
+                        }
+                    },
+                    {
+                        "luot_xem": null,
+                        "luot_thich": null,
+                        "binh_luan": null,
+                        "sub_now": 6620000,
+                        "time": "2025-08-21 07:23:35",
+                        "loop_number": 44,
+                        "debug_info": {
+                            "thread_name": "VideoTracker-1-DVKoolvu",
+                            "target_video_id": 1,
+                            "youtube_id": "DVKoolvu4TY",
+                            "timestamp": 1755735815.1798918
+                        }
+                    },
+                    {
+                        "luot_xem": null,
+                        "luot_thich": null,
+                        "binh_luan": null,
+                        "sub_now": 6620000,
+                        "time": "2025-08-21 08:25:07",
+                        "loop_number": 45,
+                        "debug_info": {
+                            "thread_name": "VideoTracker-1-DVKoolvu",
+                            "target_video_id": 1,
+                            "youtube_id": "DVKoolvu4TY",
+                            "timestamp": 1755739507.7707856
+                        }
+                    },
+                    {
+                        "luot_xem": null,
+                        "luot_thich": null,
+                        "binh_luan": null,
+                        "sub_now": 6620000,
+                        "time": "2025-08-21 09:26:49",
+                        "loop_number": 46,
+                        "debug_info": {
+                            "thread_name": "VideoTracker-1-DVKoolvu",
+                            "target_video_id": 1,
+                            "youtube_id": "DVKoolvu4TY",
+                            "timestamp": 1755743209.8857257
+                        }
+                    },
+                    {
+                        "luot_xem": null,
+                        "luot_thich": null,
+                        "binh_luan": null,
+                        "sub_now": 6620000,
+                        "time": "2025-08-21 10:28:22",
+                        "loop_number": 47,
+                        "debug_info": {
+                            "thread_name": "VideoTracker-1-DVKoolvu",
+                            "target_video_id": 1,
+                            "youtube_id": "DVKoolvu4TY",
+                            "timestamp": 1755746902.7389007
+                        }
+                    },
+                    {
+                        "luot_xem": null,
+                        "luot_thich": null,
+                        "binh_luan": null,
+                        "sub_now": 6620000,
+                        "time": "2025-08-21 11:30:04",
+                        "loop_number": 48,
+                        "debug_info": {
+                            "thread_name": "VideoTracker-1-DVKoolvu",
+                            "target_video_id": 1,
+                            "youtube_id": "DVKoolvu4TY",
+                            "timestamp": 1755750604.7673151
+                        }
+                    }
+                ],
+                "debug_info": {
+                    "youtube_id": "DVKoolvu4TY",
+                    "created_at": "2025-08-19 11:34:26",
+                    "thread_will_track": "VideoTracker-1",
+                    "created_timestamp": 1755578066.2629833
+                }
+            }
+        ]
+    }
+]
