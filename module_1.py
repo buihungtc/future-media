@@ -80,7 +80,8 @@ def main(nation, userId=1):
 
     # VÒNG LẶP CHÍNH VỚI TỐI ĐA 5 LẦN THỬ
     max_attempts = 5
-    target_count = 200  # Số lượng phần tử mong muốn
+    # target_count = 200  # Số lượng phần tử mong muốn
+    target_count = 4 
     best_result = []  # Lưu kết quả tốt nhất
     best_count = 0    # Số phần tử nhiều nhất đạt được
     best_file_path = ""  # Đường dẫn file có kết quả tốt nhất
@@ -147,7 +148,8 @@ def main(nation, userId=1):
             print(f"Tổng số phần tử tìm được: {total_elements}")
             
             # Xác định số phần tử cần xử lý (tối đa 200 hoặc số phần tử có sẵn)
-            max_process = min(200, total_elements)
+            # max_process = min(200, total_elements)
+            max_process = min(4, total_elements)
             print(f"Sẽ xử lý {max_process} phần tử")
             
             t = 0
@@ -173,6 +175,26 @@ def main(nation, userId=1):
                     tong_view = child_elements[0].text
                     engagement_rate = child_elements[1].text
                     view_per_hour = elements[t].find_element(By.CSS_SELECTOR, ".css-xyox1z.e1pit9a0").text
+                    # Chuyển đổi view_per_hour từ dạng '1.2K' hoặc '3M' về số rồi thành chuỗi; nếu không có K/M thì giữ nguyên
+                    try:
+                        v = (view_per_hour or "").strip()
+                        # Chỉ xử lý khi có hậu tố K/M
+                        match = re.match(r"^\s*([\d,.]+)\s*([kKmM])\s*$", v)
+                        if match:
+                            number_str = match.group(1).replace(",", "")
+                            suffix = match.group(2).lower()
+                            base = float(number_str)
+                            if suffix == 'k':
+                                base *= 1000
+                            elif suffix == 'm':
+                                base *= 1000000
+                            view_per_hour = str(int(base))
+                        else:
+                            # Không có hậu tố K/M: giữ nguyên (đảm bảo là chuỗi, loại bỏ khoảng trắng dư)
+                            view_per_hour = str(view_per_hour).strip()
+                    except Exception:
+                        # Nếu parse thất bại, giữ nguyên giá trị ban đầu
+                        pass
 
                     tabs = driver.window_handles
                     driver.switch_to.window(tabs[1])

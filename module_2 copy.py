@@ -451,21 +451,17 @@ def chay(user_id, type):
             if not wait_and_click_turnstile_checkbox_pyauto(driver, timeout=10):
                 if not wait_and_click_turnstile_checkbox_human(driver, timeout=8):
                     wait_and_click_turnstile_checkbox(driver, timeout=6)
-            time.sleep(5)
             # Đợi trang: tìm .vs-content (tối đa 10 lần)
-            print("Đợi trang: tìm .vs-content (tối đa 10 lần)")
             vs_content_div = None
-            for _ in range(20):
+            for _ in range(10):
                 try:
                     vs_content_div = driver.find_element(By.CLASS_NAME, "vs-content")
                     break
-                except Exception as e:
-                    print(f"Lỗi khi tìm kiếm trong thẻ <a>: {e}")
+                except Exception:
                     time.sleep(1.2)
             if not vs_content_div:
                 raise Exception("Không tìm thấy phần tử .vs-content sau 10 lần thử")
-            print("Đã tìm thấy phần tử .vs-content")
-            print(len(vs_content_div))
+
             # Lấy tất cả các thẻ <a> là con của div trên
             a_tags = vs_content_div.find_elements(By.TAG_NAME, "a")
             human_wait(0.4, 1.0)
