@@ -1,10 +1,6 @@
-dow_img.py
-get_duration.py
-get_info_chanel.py
-get_transcript.py
-module_1.json
-module_2.json
-module_2flask.py
-t.py
-yt.py
-.example
+venv/
+function1/
+function2/
+function3/
+function4/
+function5/
