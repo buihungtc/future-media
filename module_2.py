@@ -442,6 +442,10 @@ def chay(user_id, type):
         apply_stealth(driver)
         
         try:
+            # Nếu khởi tạo driver thất bại, chuyển sang lần thử tiếp theo
+            if not driver:
+                print("[!] Không khởi tạo được driver. Thử lại lần tiếp theo.")
+                continue
             driver.get(url)
             # Mở trình duyệt toàn màn hình để vị trí tương đối ổn định
             
@@ -655,8 +659,35 @@ def chay(user_id, type):
             print(f"Lỗi khi tìm kiếm trong thẻ <a>: {str(e)}")
             
         finally:
-            # Đóng trình duyệt
-            driver.quit()
+            # Đóng trình duyệt một cách an toàn
+            try:
+                if driver:
+                    # Thử đóng các alert (nếu có) để tránh block quit()
+                    try:
+                        alert = driver.switch_to.alert
+                        alert.dismiss()
+                    except Exception:
+                        pass
+                    # Đóng tất cả các tab một cách chủ động
+                    try:
+                        handles = driver.window_handles
+                        for h in handles[1:]:
+                            try:
+                                driver.switch_to.window(h)
+                                driver.close()
+                            except Exception:
+                                pass
+                        if handles:
+                            driver.switch_to.window(handles[0])
+                    except Exception:
+                        pass
+                    # Gọi quit() để đảm bảo tiến trình đóng
+                    try:
+                        driver.quit()
+                    except Exception as e:
+                        print(f"[!] Lỗi khi quit driver: {e}")
+            except Exception as e:
+                print(f"[!] Lỗi trong khối finally khi đóng driver: {e}")
         
         # KIỂM TRA SỐ LƯỢNG PHẦN TỬ TRONG FILE
         try:

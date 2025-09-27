@@ -113,6 +113,8 @@ def init_driver_from_env(env_path=".env", headless=False, wait_between=1):
             options.add_experimental_option("excludeSwitches", ["enable-automation", "enable-logging"])
             options.add_experimental_option("useAutomationExtension", False)
             options.add_argument("--disable-blink-features=AutomationControlled")
+            # Đảm bảo Chrome không tách (detach) khỏi driver, để quit() đóng được cửa sổ
+            options.add_experimental_option("detach", False)
 
             # Tắt gợi ý/auto-save credential
             prefs = {
