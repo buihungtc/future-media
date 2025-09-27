@@ -1,0 +1,13 @@
+chromedriver_autoinstaller==0.6.4
+Flask==3.1.2
+isodate==0.7.2
+openai==1.109.1
+pyautogui==0.9.54
+python-dotenv==1.1.1
+python_dateutil==2.9.0.post0
+Requests==2.32.5
+schedule==1.2.2
+selenium==4.35.0
+undetected_chromedriver==3.5.5
+webdriver_manager==4.0.2
+youtube_transcript_api==1.2.2
