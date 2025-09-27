@@ -459,7 +459,7 @@ def chay(user_id, type):
             if not wait_and_click_turnstile_checkbox_pyauto(driver, timeout=10):
                 if not wait_and_click_turnstile_checkbox_human(driver, timeout=8):
                     wait_and_click_turnstile_checkbox(driver, timeout=6)
-            sleep(15)            # Đợi trang: tìm .vs-content (tối đa 10 lần)
+            sleep(10)            # Đợi trang: tìm .vs-content (tối đa 10 lần)
             print("Đợi trang: tìm .vs-content (tối đa 10 lần)")
             vs_content_div = None
             for _ in range(20):
@@ -479,12 +479,11 @@ def chay(user_id, type):
                 print(a_tag.text)
             human_wait(0.4, 1.0)
             # Không mở tab ở đây. Sẽ chỉ mở khi cần trong từng vòng lặp phần tử.
-            x = 0
+            
             # Loop qua tất cả các thẻ <a>
             for a_tag in a_tags:
-                x+=1
-                if x > 3:
-                    break
+                # if x > 3:
+                #     break
                 try:
                     # Thêm hành vi người dùng ngẫu nhiên trước khi thao tác phần tử
                     if random.random() < 0.5:
