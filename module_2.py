@@ -135,6 +135,47 @@ def human_mouse_move(driver, moves=5):
     except Exception:
         pass
 
+def bring_browser_to_front(driver):
+    """
+    Đưa trang hiện tại lên phía trước (foreground) bằng Chrome DevTools Protocol.
+    Đồng thời đảm bảo cửa sổ ở trạng thái hiển thị và tối đa hoá để ổn định toạ độ.
+    """
+    try:
+        # Đảm bảo đang ở tab hiện tại
+        _ = driver.current_window_handle
+    except Exception:
+        pass
+
+    # Yêu cầu trang hiện tại bring-to-front
+    try:
+        driver.execute_cdp_cmd("Page.bringToFront", {})
+    except Exception:
+        pass
+
+    # Đảm bảo cửa sổ ở trạng thái visible và maximize để tránh bị che khuất
+    try:
+        info = driver.execute_cdp_cmd("Browser.getWindowForTarget", {})
+        window_id = info.get("windowId") if isinstance(info, dict) else None
+        if window_id:
+            # Chuyển về "normal" trước, rồi maximize để ép hệ điều hành focus cửa sổ
+            try:
+                driver.execute_cdp_cmd(
+                    "Browser.setWindowBounds",
+                    {"windowId": window_id, "bounds": {"windowState": "normal"}},
+                )
+            except Exception:
+                pass
+            time.sleep(0.05)
+            try:
+                driver.execute_cdp_cmd(
+                    "Browser.setWindowBounds",
+                    {"windowId": window_id, "bounds": {"windowState": "maximized"}},
+                )
+            except Exception:
+                pass
+    except Exception:
+        pass
+
 def click_like_human(driver, element):
     """
     Cố gắng mô phỏng thao tác người dùng khi click vào phần tử:
@@ -430,8 +471,8 @@ def chay(user_id, type):
     
     # VÒNG LẶP CHÍNH VỚI TỐI ĐA 5 LẦN THỬ
     max_attempts = 5
-    # target_count = 140  # Số lượng phần tử mong muốn
-    target_count = 4
+    target_count = 140  # Số lượng phần tử mong muốn
+    # target_count = 4
     
     for attempt in range(max_attempts):
         print(f"Lần thử {attempt + 1}/{max_attempts}")
@@ -459,6 +500,8 @@ def chay(user_id, type):
             human_mouse_move(driver)
             human_scroll(driver, steps=4)
             human_wait(0.8, 1.6)
+            # Đảm bảo cửa sổ trình duyệt đang ở trên cùng trước khi thao tác chuột thật
+            bring_browser_to_front(driver)
             # Thử theo thứ tự: pyautogui (chuột thật) -> ActionChains (giống người) -> CDP (toạ độ)
             if not wait_and_click_turnstile_checkbox_pyauto(driver, timeout=10):
                 if not wait_and_click_turnstile_checkbox_human(driver, timeout=8):

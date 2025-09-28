@@ -80,8 +80,8 @@ def main(nation, userId=1):
 
     # VÒNG LẶP CHÍNH VỚI TỐI ĐA 5 LẦN THỬ
     max_attempts = 5
-    # target_count = 200  # Số lượng phần tử mong muốn
-    target_count = 4 
+    target_count = 200  # Số lượng phần tử mong muốn
+    # target_count = 4 
     best_result = []  # Lưu kết quả tốt nhất
     best_count = 0    # Số phần tử nhiều nhất đạt được
     best_file_path = ""  # Đường dẫn file có kết quả tốt nhất
@@ -148,8 +148,8 @@ def main(nation, userId=1):
             print(f"Tổng số phần tử tìm được: {total_elements}")
             
             # Xác định số phần tử cần xử lý (tối đa 200 hoặc số phần tử có sẵn)
-            # max_process = min(200, total_elements)
-            max_process = min(4, total_elements)
+            max_process = min(200, total_elements)
+            # max_process = min(4, total_elements)
             print(f"Sẽ xử lý {max_process} phần tử")
             
             t = 0
